@@ -1,0 +1,136 @@
+@import url(./../fonts/inter.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body {
+    background: #ffffff;
+    font-family: "Inter";
+    scroll-behavior: smooth;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+// navbar
+nav {
+    .nav__item {
+        background: #f7fafc;
+        .nav__info {
+            display: grid;
+            column-gap: 45px;
+            align-items: center;
+            grid-template-columns: 220px 1fr 304px;
+            height: 207px;
+            h1 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 23px;
+                color: #242f39;
+                margin: 0;
+            }
+            .search__item {
+                position: relative;
+                display: flex;
+                align-items: center;
+                input {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 10px;
+                    letter-spacing: -0.005em;
+                    color: #a0aec0;
+                    background: #ffffff;
+                    border: 1px solid #e3ebf6;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    width: 100%;
+                    height: 48px;
+                    padding-right: 10px;
+                    padding-left: 46px;
+                }
+                svg {
+                    left: 19px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    .nav__links {
+        background: #014483;
+        height: 57px;
+        padding: 0 22px 0 22px;
+        display: flex;
+        align-items: center;
+        column-gap: minmax(10px, 85px);
+        position: relative;
+        top: -20px;
+        a {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #f7fafc;
+            text-decoration: none;
+            position: relative;
+            &.active{
+                &:before {
+                    content: "";
+                    background: #fe0202;
+                    height: 5px;
+                    width: 100%;
+                    position: absolute;
+                    bottom: -20px;
+                }
+            }
+            &:before {
+                content: "";
+                background: #fe0202;
+                height: 5px;
+                width: 0%;
+                position: absolute;
+                bottom: -20px;
+            }
+            &:hover {
+                &:before {
+                    width: 100%;
+                    transition: 0.5s linear;
+                }
+            }
+        }
+    }
+}
+
+// endnavbar
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 872px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1090px;
+    }
+}
+@media (min-width: 1290px) {
+    .container {
+        width: 1170px;
+    }
+}
+@media (min-width: 1440px) {
+    .container {
+        width: 1319px;
+    }
+}
