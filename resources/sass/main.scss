@@ -674,17 +674,17 @@ nav {
 // endmeros
 // side__bar__comp
 .side__bar__comp {
-    width: 100%;
-    max-width: 240px;
     position: sticky;
     top: 30px;
-    margin-bottom: 30px;
-    div {
-        height: 57px;
-        display: flex;
-        align-items: center;
+    .side__bar__mobile {
+        cursor: pointer;
+        display: none;
+        .nav__mobile{
+            display: flex;
+            align-items: center;
+        }
         p {
-            padding-left: 20px;
+            padding-left: 9px;
             width: 100%;
             font-style: normal;
             font-weight: 600;
@@ -693,18 +693,83 @@ nav {
             text-transform: uppercase;
             color: #16192c;
         }
-        &:hover {
-            background: #edf2f7;
-            p {
-                color: #014483;
+        .hamburger__menu {
+            cursor: pointer;
+            height: 30px;
+            width: 35px;
+            z-index: 99;
+            .item {
+                display: block;
+                position: relative;
+                background: #16192c;
+                width: 90%;
+                height: 4px;
+                transition: 0.4s;
+                top: 13px;
+                left: 2px;
+            }
+            .item::after,
+            .item::before {
+                content: "";
+                display: block;
+                position: absolute;
+                background: #16192c;
+                width: 100%;
+                height: 4px;
+                transition: 0.4s;
+            }
+            .item::after {
+                top: 8px;
+            }
+
+            .item::before {
+                top: -8px;
+            }
+            .item__rotate {
+                background: transparent;
+                &::after {
+                    transform: rotate(-45deg);
+                    top: 0;
+                }
+
+                &::before {
+                    transform: rotate(45deg);
+                    top: 0;
+                }
             }
         }
     }
-    a.active {
+    .side__bar__item__href {
+        width: 100%;
+        max-width: 240px;
+        margin-bottom: 30px;
         div {
-            background: #edf2f7;
+            height: 57px;
+            display: flex;
+            align-items: center;
             p {
-                color: #014483;
+                padding-left: 20px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+                color: #16192c;
+            }
+            &:hover {
+                background: #edf2f7;
+                p {
+                    color: #014483;
+                }
+            }
+        }
+        a.active {
+            div {
+                background: #edf2f7;
+                p {
+                    color: #014483;
+                }
             }
         }
     }

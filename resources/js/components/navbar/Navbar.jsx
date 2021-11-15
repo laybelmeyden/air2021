@@ -4,7 +4,9 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
     const onNavClose = (e) =>{
-        setNavOpen(!navOpen);
+        window.innerWidth >= 1180
+            ? setNavOpen(false)
+            : setNavOpen(!navOpen);
     }
     return (
         <nav>

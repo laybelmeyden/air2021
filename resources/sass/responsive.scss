@@ -25,6 +25,47 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .item__document,
+    .item__cooperation,
+    .item__about,
+    .item__teams,
+    .item__contact {
+        margin-top: 50px;
+        margin-bottom: 38px;
+    }
+    .grid__item {
+        grid-template-columns: 1fr;
+        .side__bar__comp {
+            .side__bar__mobile {
+                display: block;
+                .show__nav__mobile {
+                    background: #f7fafc;
+                }
+                .nav__mobile {
+                    position: absolute;
+                    width: 240px;
+                    height: 57px;
+                    top: -29px;
+                    .hamburger__menu {
+                        width: 48px;
+                        margin-left: 21px;
+                    }
+                }
+            }
+            .side__bar__item__href {
+                height: 0;
+                overflow: hidden;
+                position: absolute;
+                top: 28px;
+                transition: 0.5s;
+                background: #f7fafc;
+            }
+            .show__sidebar {
+                transition: 0.5s;
+                height: auto;
+            }
+        }
+    }
     nav {
         .nav__item {
             .nav__info {
@@ -58,8 +99,6 @@
     .news {
         .card__grid {
             grid-template-columns: 1fr;
-            .card {
-            }
         }
     }
     footer {
@@ -77,8 +116,119 @@
             }
         }
     }
+    .experts .item__experts .experts__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .experts .item__books .books__grid {
+        grid-template-columns: 1fr;
+    }
+    .item__document, .item__cooperation, .item__about, .item__teams, .item__contact {
+        z-index: -1;
+    }
 }
 @media screen and (max-width: 992px) {
+    .experts .item__experts .experts__grid {
+        grid-template-columns: 1fr;
+        margin-bottom: 38px;
+    }
+    .experts .item__books .books__grid .item {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .experts .item__experts .experts__grid .item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+    .grid__item .item__about .item__important {
+        grid-template-columns: 1fr;
+    }
+    .grid__item .item__about .item__title .item {
+        padding: 20px;
+        max-width: 100%;
+    }
+    .item__projects .item__link {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    .item__projects .project__grid .card__project {
+        height: auto;
+        flex-direction: column;
+    }
+    .meros .item__link {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    .meros .meros__grid {
+        grid-template-columns: 1fr;
+    }
+    .news__solo__item {
+        margin-bottom: 38px !important;
+    }
+    .experts .item__link {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .item__projects .project__grid .card__project .item__img {
+        width: 100%;
+        height: 200px;
+        min-width: fit-content;
+        max-width: 100%;
+        margin-right: 0;
+        border-radius: 16px;
+    }
+    .grid__item .side__bar__comp .side__bar__mobile .nav__mobile {
+        top: -20px;
+    }
+    .grid__item .side__bar__comp .side__bar__item__href {
+        top: 37px;
+    }
+    .grid__item .item__about .item__work .grid .item {
+        width: 100%;
+        text-align: center;
+    }
+    .grid__item .item__about .item__title .item h1 {
+        font-size: 18px;
+    }
+    .grid__item .item__document .item__link {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .grid__item .item__about .item__title .item h3 {
+        font-size: 16px;
+    }
+    .grid__item .item__about .item__work h4 {
+        font-size: 18px;
+    }
+    .grid__item .item__about .item__work .grid {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .grid__item .item__document .item {
+        margin-top: 38px;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+    }
+    .grid__item .item__teams {
+        grid-template-columns: 1fr;
+    }
+    .grid__item .item__cooperation h1 {
+        font-size: 18px;
+    }
+    .grid__item .item__teams .item {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .grid__item .item__cooperation h2 {
+        font-size: 18px;
+    }
     nav {
         .nav__item {
             .nav__info {
@@ -120,6 +270,13 @@
             }
         }
     }
+    .item__contact .info {
+        position: relative;
+        text-align: left;
+        padding: 30px 0;
+        height: auto;
+        z-index: -1;
+    }
 }
 @media screen and (max-width: 870px) {
     .container {
@@ -138,6 +295,21 @@
                 height: 150px;
             }
         }
+    }
+    .experts .item__experts h1 {
+        font-size: 24px;
+    }
+    .experts .item__books h1 {
+        font-size: 24px;
+    }
+    .item__contact .info h1 {
+        font-size: 16px;
+    }
+    .item__contact .info a {
+        font-size: 16px;
+    }
+    .item__contact .info a {
+        font-size: 16px;
     }
     .box__modal {
         .modal__grid {
