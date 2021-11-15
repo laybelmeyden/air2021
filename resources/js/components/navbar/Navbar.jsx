@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-
 const Navbar = () => {
+    const [navOpen, setNavOpen] = useState(false);
+    const onNavClose = (e) =>{
+        setNavOpen(!navOpen);
+    }
     return (
         <nav>
             <div className="nav__item">
                 <div className="container">
                     <div className="nav__info">
-                        <div>
-                            <img src="/assets/img/airlogo.svg" alt="airlogo" />
+                        <div className="logo__item">
+                            <NavLink to="/">
+                                <img
+                                    src="/assets/img/airlogo.svg"
+                                    alt="airlogo"
+                                />
+                            </NavLink>
                         </div>
-                        <div>
+                        <div className="title__item">
                             <h1>
                                 Социально-ориентированная некоммерческая
                                 организация, реализующая
@@ -46,14 +54,45 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="nav__links">
-                    <NavLink to="/">об агентстве</NavLink>
-                    <NavLink to="2">ПРОЕКТЫ</NavLink>
-                    <NavLink to="2">НОВости</NavLink>
-                    <NavLink to="2">Меропрития</NavLink>
-                    <NavLink to="2">Экспертно-методический блок</NavLink>
-                    <NavLink to="2">галлерея</NavLink>
-                    <NavLink to="2">контакты</NavLink>
+                <div className={`nav__links ${navOpen && "longer"}`}>
+                    <div
+                        className="item__nav__mobile"
+                        onClick={() => setNavOpen(!navOpen)}
+                    >
+                        <div className="nav__mobile">
+                            <div className="hamburger__menu">
+                                <div
+                                    className={`item ${
+                                        navOpen ? "item__rotate" : ""
+                                    }`}
+                                ></div>
+                            </div>
+                            <p>Меню</p>
+                        </div>
+                    </div>
+                    <div className={`nav__href ${navOpen && "show"}`}>
+                        <div>
+                            <NavLink to="/about" onClick={onNavClose}>об агентстве</NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="/projects" onClick={onNavClose}>ПРОЕКТЫ</NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="/news" onClick={onNavClose}>НОВости</NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="/events" onClick={onNavClose}>Меропрития</NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="/experts" onClick={onNavClose}>
+                                Экспертно-методический блок
+                            </NavLink>
+                        </div>
+                        {/* <div><NavLink to="2">галерея</NavLink></div> */}
+                        <div>
+                            <NavLink to="/contact" onClick={onNavClose}>контакты</NavLink>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
