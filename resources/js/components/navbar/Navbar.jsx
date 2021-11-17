@@ -32,7 +32,7 @@ const Navbar = () => {
                             </h1>
                         </div>
                         <div className="search__item">
-                            <svg
+                            {/* <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="14"
                                 height="15"
@@ -50,7 +50,7 @@ const Navbar = () => {
                                     fill="#A0AEC0"
                                 />
                             </svg>
-                            <input type="search" placeholder="Поиск" />
+                            <input type="search" placeholder="Поиск" /> */}
                         </div>
                     </div>
                 </div>

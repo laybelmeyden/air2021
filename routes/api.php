@@ -3,7 +3,8 @@
 use App\Http\Controllers\MainCotroller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\EventController;
+use App\Http\Controllers\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,8 @@ Route::middleware('auth:sanctum')->group(function(){
     Route::get('user', [\App\Http\Controllers\AuthController::class, 'user']);
     Route::post('logout', [\App\Http\Controllers\AuthController::class, 'logout']);
 });
+Route::resource('events', EventController::class);
+Route::resource('news', NewsController::class);
+Route::get('eventsActually', [EventController::class, 'indexActually']);
+Route::get('eventsNonActually', [EventController::class, 'indexNonActually']);
+Route::get('allNewsMain', [NewsController::class, 'indexMain']);

@@ -215,6 +215,55 @@ nav {
 }
 
 // endnavbar
+.item__events {
+    margin-top: 20px !important;
+    margin-bottom: 38px !important;
+    .img {
+        width: 100%;
+        height: 340px;
+        background: linear-gradient(
+            0deg,
+            rgba(26, 45, 121, 0.7),
+            rgba(26, 45, 121, 0.7)
+        );
+        position: relative;
+        .bcg__main {
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+    }
+    h1 {
+        margin-top: 30px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 136.02%;
+        color: #014483;
+        margin-bottom: 15px;
+        word-break: break-word;
+    }
+    h2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 162.02%;
+        color: #242f39;
+        word-break: break-word;
+    }
+    a{
+        color: #014483;
+        &:hover{
+            color: #fe0202;
+        }
+    }
+}
 // slider
 .mero__slider {
     .slick-prev,
@@ -258,11 +307,19 @@ nav {
     .item__img {
         min-height: 390px;
         height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         margin-top: 20px;
         padding-left: 60px;
+        .bcg__main {
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            top: 20px;
+            left: 0;
+            position: absolute;
+        }
         .item__arrow {
             position: relative;
         }
@@ -486,6 +543,55 @@ nav {
         }
     }
 }
+.err__404 {
+    h1 {
+        color: #023361;
+        font-size: 12em;
+        text-align: center;
+    }
+    h2 {
+        margin-top: 30px;
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+.paginate {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul {
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+        li {
+            list-style: none;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: #a0aec0;
+            cursor: pointer;
+            &:hover {
+                color: #014483;
+            }
+            &.selected {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 0.4em;
+                text-transform: uppercase;
+                color: #014483;
+            }
+        }
+    }
+}
 // meros
 .news__solo__item {
     margin-top: 20px !important;
@@ -618,9 +724,23 @@ nav {
         width: 373px;
         height: 450px;
         padding: 108px 41px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        position: relative;
+        background: linear-gradient(
+            0deg,
+            rgba(26, 45, 121, 0.7),
+            rgba(26, 45, 121, 0.7)
+        );
+        .bcg__main {
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
         .date {
             font-style: normal;
             font-weight: 600;
@@ -679,7 +799,7 @@ nav {
     .side__bar__mobile {
         cursor: pointer;
         display: none;
-        .nav__mobile{
+        .nav__mobile {
             display: flex;
             align-items: center;
         }

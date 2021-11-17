@@ -6,84 +6,72 @@ import "slick-carousel/slick/slick-theme.css";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Footer from "../footer/Footer";
+import { EventsAPI, NewsAPI } from "../api";
 
 const Mainpage = (props) => {
     React.useEffect(() => {
         window.scrollTo(0, 0);
+    }, []);
+    const [event, setEvent] = useState([]);
+    const [news, setNews] = useState([]);
+    useEffect(() => {
+        EventsAPI.allEvent().then((res) => {
+            const result = res.data;
+            setEvent(result.data);
+        });
+    }, []);
+    useEffect(() => {
+        NewsAPI.allNewsActually().then((res) => {
+            const result = res.data;
+            setNews(result.data);
+        });
     }, []);
     return (
         <div>
             <section className="mero__slider">
                 <div className="container item__arrow">
                     <Slider {...props.settings__mero}>
-                        <div key="e.id">
-                            <Link to="/">
-                                <div
-                                    className="item__img"
-                                    style={{
-                                        backgroundImage:
-                                            "url(./assets/img/meroone.png)",
-                                    }}
-                                >
-                                    <p className="item__date">22-24 ОКТЯБРЯ</p>
-                                    <h2 className="item__title">
-                                        Окружной фестиваль интерактивных
-                                        технологий “Шаг в будущее
-                                    </h2>
-                                    <button className="item__btn">
-                                        Подробнее
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="10"
-                                            height="10"
-                                            viewBox="0 0 10 10"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M2.90403 1.02903C3.02607 0.90699 3.22393 0.90699 3.34597 1.02903L7.09597 4.77903C7.21801 4.90107 7.21801 5.09893 7.09597 5.22097L3.34597 8.97097C3.22393 9.09301 3.02607 9.09301 2.90403 8.97097C2.78199 8.84893 2.78199 8.65107 2.90403 8.52903L6.43306 5L2.90403 1.47097C2.78199 1.34893 2.78199 1.15107 2.90403 1.02903Z"
-                                                fill="#F7FAFC"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </Link>
-                        </div>
-                        <div key="e.id">
-                            <Link to="/">
-                                <div
-                                    className="item__img"
-                                    style={{
-                                        backgroundImage:
-                                            "url(./assets/img/meroone.png)",
-                                    }}
-                                >
-                                    <p className="item__date">22-24 ОКТЯБРЯ</p>
-                                    <h2 className="item__title">
-                                        Окружной фестиваль интерактивных
-                                        технологий “Шаг в будущее
-                                    </h2>
-                                    <button className="item__btn">
-                                        Подробнее
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="10"
-                                            height="10"
-                                            viewBox="0 0 10 10"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M2.90403 1.02903C3.02607 0.90699 3.22393 0.90699 3.34597 1.02903L7.09597 4.77903C7.21801 4.90107 7.21801 5.09893 7.09597 5.22097L3.34597 8.97097C3.22393 9.09301 3.02607 9.09301 2.90403 8.97097C2.78199 8.84893 2.78199 8.65107 2.90403 8.52903L6.43306 5L2.90403 1.47097C2.78199 1.34893 2.78199 1.15107 2.90403 1.02903Z"
-                                                fill="#F7FAFC"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </Link>
-                        </div>
+                        {event.map(
+                            (e, index) =>
+                                e.actually === "1" && (
+                                    <div key={e.id}>
+                                        <Link to={`/events/${e.id}`}>
+                                            <div className="item__img">
+                                                <div
+                                                    className="bcg__main"
+                                                    style={{
+                                                        backgroundImage: `url(/storage/${e.image})`,
+                                                    }}
+                                                ></div>
+                                                <p className="item__date">
+                                                    {e.time}
+                                                </p>
+                                                <h2 className="item__title">
+                                                    {e.title.slice(0, 60) +
+                                                        "..."}
+                                                </h2>
+                                                <button className="item__btn">
+                                                    Подробнее
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="10"
+                                                        height="10"
+                                                        viewBox="0 0 10 10"
+                                                        fill="none"
+                                                    >
+                                                        <path
+                                                            fillRule="evenodd"
+                                                            clipRule="evenodd"
+                                                            d="M2.90403 1.02903C3.02607 0.90699 3.22393 0.90699 3.34597 1.02903L7.09597 4.77903C7.21801 4.90107 7.21801 5.09893 7.09597 5.22097L3.34597 8.97097C3.22393 9.09301 3.02607 9.09301 2.90403 8.97097C2.78199 8.84893 2.78199 8.65107 2.90403 8.52903L6.43306 5L2.90403 1.47097C2.78199 1.34893 2.78199 1.15107 2.90403 1.02903Z"
+                                                            fill="#F7FAFC"
+                                                        />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                )
+                        )}
                     </Slider>
                 </div>
             </section>
@@ -1089,161 +1077,42 @@ const Mainpage = (props) => {
                     <h3>Ближайшие мероприятия</h3>
                     <div className="mrg">
                         <Slider {...props.settings__meros}>
-                            <Link to="/">
-                                <div
-                                    className="card"
-                                    style={{
-                                        backgroundImage:
-                                            "url(./assets/img/meroitem.png)",
-                                    }}
-                                >
-                                    <p className="date">22-24 ОКТЯБРЯ</p>
-                                    <p className="title">
-                                        Окружной фестиваль интерактивных
-                                        технологий “Шаг в будущее
-                                    </p>
-                                    <button>
-                                        Подробнее{" "}
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="10"
-                                            height="11"
-                                            viewBox="0 0 10 11"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M2.90403 1.52903C3.02607 1.40699 3.22393 1.40699 3.34597 1.52903L7.09597 5.27903C7.21801 5.40107 7.21801 5.59893 7.09597 5.72097L3.34597 9.47097C3.22393 9.59301 3.02607 9.59301 2.90403 9.47097C2.78199 9.34893 2.78199 9.15107 2.90403 9.02903L6.43306 5.5L2.90403 1.97097C2.78199 1.84893 2.78199 1.65107 2.90403 1.52903Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </Link>
-                            <Link to="/">
-                                <div
-                                    className="card"
-                                    style={{
-                                        backgroundImage:
-                                            "url(./assets/img/meroitem.png)",
-                                    }}
-                                >
-                                    <p className="date">22-24 ОКТЯБРЯ</p>
-                                    <p className="title">
-                                        Окружной фестиваль интерактивных
-                                        технологий “Шаг в будущее
-                                    </p>
-                                    <button>
-                                        Подробнее
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="10"
-                                            height="11"
-                                            viewBox="0 0 10 11"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M2.90403 1.52903C3.02607 1.40699 3.22393 1.40699 3.34597 1.52903L7.09597 5.27903C7.21801 5.40107 7.21801 5.59893 7.09597 5.72097L3.34597 9.47097C3.22393 9.59301 3.02607 9.59301 2.90403 9.47097C2.78199 9.34893 2.78199 9.15107 2.90403 9.02903L6.43306 5.5L2.90403 1.97097C2.78199 1.84893 2.78199 1.65107 2.90403 1.52903Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </Link>
-                            <Link to="/">
-                                <div
-                                    className="card"
-                                    style={{
-                                        backgroundImage:
-                                            "url(./assets/img/meroitem.png)",
-                                    }}
-                                >
-                                    <p className="date">22-24 ОКТЯБРЯ</p>
-                                    <p className="title">
-                                        Окружной фестиваль интерактивных
-                                        технологий “Шаг в будущее
-                                    </p>
-                                    <button>
-                                        Подробнее
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="10"
-                                            height="11"
-                                            viewBox="0 0 10 11"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M2.90403 1.52903C3.02607 1.40699 3.22393 1.40699 3.34597 1.52903L7.09597 5.27903C7.21801 5.40107 7.21801 5.59893 7.09597 5.72097L3.34597 9.47097C3.22393 9.59301 3.02607 9.59301 2.90403 9.47097C2.78199 9.34893 2.78199 9.15107 2.90403 9.02903L6.43306 5.5L2.90403 1.97097C2.78199 1.84893 2.78199 1.65107 2.90403 1.52903Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </Link>
-                            <Link to="/">
-                                <div
-                                    className="card"
-                                    style={{
-                                        backgroundImage:
-                                            "url(./assets/img/meroitem.png)",
-                                    }}
-                                >
-                                    <p className="date">22-24 ОКТЯБРЯ</p>
-                                    <p className="title">
-                                        Окружной фестиваль интерактивных
-                                        технологий “Шаг в будущее
-                                    </p>
-                                    <button>
-                                        Подробнее
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="10"
-                                            height="11"
-                                            viewBox="0 0 10 11"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M2.90403 1.52903C3.02607 1.40699 3.22393 1.40699 3.34597 1.52903L7.09597 5.27903C7.21801 5.40107 7.21801 5.59893 7.09597 5.72097L3.34597 9.47097C3.22393 9.59301 3.02607 9.59301 2.90403 9.47097C2.78199 9.34893 2.78199 9.15107 2.90403 9.02903L6.43306 5.5L2.90403 1.97097C2.78199 1.84893 2.78199 1.65107 2.90403 1.52903Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </Link>
-                            <Link to="/">
-                                <div
-                                    className="card"
-                                    style={{
-                                        backgroundImage:
-                                            "url(./assets/img/meroitem.png)",
-                                    }}
-                                >
-                                    <p className="date">22-24 ОКТЯБРЯ</p>
-                                    <p className="title">
-                                        Окружной фестиваль интерактивных
-                                        технологий “Шаг в будущее
-                                    </p>
-                                    <button>
-                                        Подробнее
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="10"
-                                            height="11"
-                                            viewBox="0 0 10 11"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M2.90403 1.52903C3.02607 1.40699 3.22393 1.40699 3.34597 1.52903L7.09597 5.27903C7.21801 5.40107 7.21801 5.59893 7.09597 5.72097L3.34597 9.47097C3.22393 9.59301 3.02607 9.59301 2.90403 9.47097C2.78199 9.34893 2.78199 9.15107 2.90403 9.02903L6.43306 5.5L2.90403 1.97097C2.78199 1.84893 2.78199 1.65107 2.90403 1.52903Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </Link>
+                            {event.map(
+                                (e, index) =>
+                                    e.actually === "1" && (
+                                        <Link to={`/events/${e.id}`} key={e.id}>
+                                            <div className="card">
+                                                <div
+                                                    className="bcg__main"
+                                                    style={{
+                                                        backgroundImage: `url(/storage/${e.image})`,
+                                                    }}
+                                                ></div>
+                                                <p className="date">{e.time}</p>
+                                                <p className="title">
+                                                    {e.title.slice(0, 60) +
+                                                        "..."}
+                                                </p>
+                                                <button>
+                                                    Подробнее{" "}
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="10"
+                                                        height="11"
+                                                        viewBox="0 0 10 11"
+                                                        fill="none"
+                                                    >
+                                                        <path
+                                                            fillRule="evenodd"
+                                                            clipRule="evenodd"
+                                                            d="M2.90403 1.52903C3.02607 1.40699 3.22393 1.40699 3.34597 1.52903L7.09597 5.27903C7.21801 5.40107 7.21801 5.59893 7.09597 5.72097L3.34597 9.47097C3.22393 9.59301 3.02607 9.59301 2.90403 9.47097C2.78199 9.34893 2.78199 9.15107 2.90403 9.02903L6.43306 5.5L2.90403 1.97097C2.78199 1.84893 2.78199 1.65107 2.90403 1.52903Z"
+                                                        />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </Link>
+                                    )
+                            )}
                         </Slider>
                     </div>
                 </div>
@@ -1252,94 +1121,53 @@ const Mainpage = (props) => {
                 <div className="container news__item">
                     <h4>Новости</h4>
                     <div className="card__grid">
-                        <div>
-                            <Link to="">
-                                <div className="card">
-                                    <div
-                                        className="img"
-                                        style={{
-                                            backgroundImage:
-                                                "url(./assets/img/rounded.png)",
-                                        }}
-                                    ></div>
-                                    <div className="news__text">
-                                        <p className="sub__title">
-                                            мероприятия
-                                        </p>
-                                        <p className="title">
-                                            Бесплатный образовательный курс и
-                                            международный конкурс
-                                        </p>
-                                        <p className="date">24 июня 2021</p>
-                                        <p className="body">
-                                            Обучающий курс поможет без знания
-                                            языка программирования собрать свой
-                                            первый проект с использованием
-                                            виртуальной реальности.
-                                        </p>
-                                        <button>
-                                            Читать
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width="10"
-                                                height="10"
-                                                viewBox="0 0 10 10"
-                                                fill="none"
-                                            >
-                                                <path
-                                                    fillRule="evenodd"
-                                                    clipRule="evenodd"
-                                                    d="M2.90403 1.02903C3.02607 0.90699 3.22393 0.90699 3.34597 1.02903L7.09597 4.77903C7.21801 4.90107 7.21801 5.09893 7.09597 5.22097L3.34597 8.97097C3.22393 9.09301 3.02607 9.09301 2.90403 8.97097C2.78199 8.84893 2.78199 8.65107 2.90403 8.52903L6.43306 5L2.90403 1.47097C2.78199 1.34893 2.78199 1.15107 2.90403 1.02903Z"
-                                                />
-                                            </svg>
-                                        </button>
+                        {news.map((e, index) => (
+                            <div key={e.id}>
+                                <Link to={`/news/${e.id}`}>
+                                    <div className="card">
+                                        <div
+                                            className="img"
+                                            style={{
+                                                backgroundImage: `url(/storage/${e.image})`,
+                                            }}
+                                        ></div>
+                                        <div className="news__text">
+                                            <p className="sub__title">
+                                                {e.other || "анонс"}
+                                            </p>
+                                            <p className="title">
+                                                {e.body.slice(0, 50) + "..."}
+                                            </p>
+                                            <p className="date">{e.date}</p>
+                                            <p
+                                                className="body"
+                                                dangerouslySetInnerHTML={{
+                                                    __html:
+                                                        e.sodnew.slice(0, 120) +
+                                                        "...",
+                                                }}
+                                            ></p>
+                                            <button>
+                                                Читать
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="10"
+                                                    height="10"
+                                                    viewBox="0 0 10 10"
+                                                    fill="none"
+                                                >
+                                                    <path
+                                                        fillRule="evenodd"
+                                                        clipRule="evenodd"
+                                                        d="M2.90403 1.02903C3.02607 0.90699 3.22393 0.90699 3.34597 1.02903L7.09597 4.77903C7.21801 4.90107 7.21801 5.09893 7.09597 5.22097L3.34597 8.97097C3.22393 9.09301 3.02607 9.09301 2.90403 8.97097C2.78199 8.84893 2.78199 8.65107 2.90403 8.52903L6.43306 5L2.90403 1.47097C2.78199 1.34893 2.78199 1.15107 2.90403 1.02903Z"
+                                                    />
+                                                </svg>
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="">
-                                <div className="card">
-                                    <div
-                                        className="img"
-                                        style={{
-                                            backgroundImage:
-                                                "url(./assets/img/rounded.png)",
-                                        }}
-                                    ></div>
-                                    <div className="news__text">
-                                        <p className="sub__title">анонс</p>
-                                        <p className="title">
-                                            Бесплатный образовательный курс и
-                                            международный конкурс
-                                        </p>
-                                        <p className="date">24 июня 2021</p>
-                                        <p className="body">
-                                            Обучающий курс поможет без знания
-                                            языка программирования собрать свой
-                                            первый проект с использованием
-                                            виртуальной реальности.
-                                        </p>
-                                        <button>
-                                            Читать
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width="10"
-                                                height="10"
-                                                viewBox="0 0 10 10"
-                                                fill="none"
-                                            >
-                                                <path
-                                                    fillRule="evenodd"
-                                                    clipRule="evenodd"
-                                                    d="M2.90403 1.02903C3.02607 0.90699 3.22393 0.90699 3.34597 1.02903L7.09597 4.77903C7.21801 4.90107 7.21801 5.09893 7.09597 5.22097L3.34597 8.97097C3.22393 9.09301 3.02607 9.09301 2.90403 8.97097C2.78199 8.84893 2.78199 8.65107 2.90403 8.52903L6.43306 5L2.90403 1.47097C2.78199 1.34893 2.78199 1.15107 2.90403 1.02903Z"
-                                                />
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>
-                            </Link>
-                        </div>
+                                </Link>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>

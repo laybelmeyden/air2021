@@ -29,11 +29,11 @@ const SideBar = () => {
                         <p>География мероприятий</p>
                     </div>
                 </NavLink>
-                <NavLink to="/about/document">
+                {/* <NavLink to="/about/document">
                     <div>
                         <p>Документы</p>
                     </div>
-                </NavLink>
+                </NavLink> */}
                 <NavLink to="/about/cooperation">
                     <div>
                         <p>Сотрудничество</p>

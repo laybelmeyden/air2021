@@ -25,6 +25,9 @@ import Books from "./experts/Books";
 import Login from "./admin/Login";
 import Register from "./admin/Register";
 import AdminPageContainer from "./admin/AdminPageContainer";
+import Errror404 from "./Errror404/Errror404";
+import NewsItem from "./news/NewsItem";
+import EventItem from "./meros/EventItem";
 
 
 
@@ -55,9 +58,11 @@ const App = () => {
                     <Route path="/about/teams" render={() => <AgencyTeams />} />
                     <Route path="/about/contact" render={() => <AgencyContact />} />
                     <Route exact path="/projects" render={() => <ProjectCurrent />} />
-                    <Route path="/news" render={() => <News />} />
+                    <Route exact path="/news" render={() => <News />} />
+                    <Route path="/news/:id" render={() => <NewsItem />} />
                     <Route exact path="/events" render={() => <Meros />} />
                     <Route path="/events/finished" render={() => <MerosFinished />} />
+                    <Route path="/events/:id" render={() => <EventItem />} />
                     <Route path="/projects/finished" render={() => <ProjectFinished />} />
                     <Route exact path="/experts" render={() => <Experts />} />
                     <Route path="/experts/books" render={() => <Books />} />
@@ -65,7 +70,7 @@ const App = () => {
                     <Route path="/login" render={() => <Login />} />
                     <Route path="/admin" render={() => <AdminPageContainer />} />
                     <Route path="/register" render={() => <Register />} />
-                    
+                    <Route path="" component={Errror404} />
                 </Switch>
             </Provider>
         </BrowserRouter>

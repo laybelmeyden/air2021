@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 <div className="href">
                     <Link to="/experts">Экспертно-методический блок</Link>
-                    <Link to="">Галерея</Link>
+                    {/* <Link to="">Галерея</Link> */}
                     <Link to="/contact">контакты</Link>
                 </div>
                 <div className="social">
