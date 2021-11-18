@@ -15,12 +15,12 @@ class NewsController extends Controller
      */
     public function index()
     {
-        $allNews =  NewsResource::collection(News::latest()->orderByRaw('id','DESC')->paginate(6));
+        $allNews =  NewsResource::collection(News::latest()->paginate(6));
         return $allNews;
     }
     public function indexMain()
     {
-        $allNewsMain =  NewsResource::collection(News::latest()->orderByRaw('id','DESC')->limit(2)->get());
+        $allNewsMain =  NewsResource::collection(News::latest()->limit(2)->get());
         return $allNewsMain;
     }
 
