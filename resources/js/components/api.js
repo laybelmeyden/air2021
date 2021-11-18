@@ -52,3 +52,25 @@ export const NewsAPI = {
         return axios.get(`${BASE_API_URL}/news/${id}`)
     }
 }
+export const CompetetionsAPI = {
+    allCompetetions:(e) =>{
+        return axios.get(`${BASE_API_URL}/competetions`)
+    }
+}
+export const PartnersAPI = {
+    allPartners:(e) =>{
+        return axios.get(`${BASE_API_URL}/partners`)
+    }
+}
+export const ProjectsAPI = {
+    allProjectActually:(e) =>{
+        return axios.get(`${BASE_API_URL}/projectsActually`)
+    },
+    allProjectNonActually:(e) =>{
+        return axios.get(`${BASE_API_URL}/projectsNonActually`)
+    },
+    getOneProjects:(id) => {
+        return axios.get(`${BASE_API_URL}/projects/${id}`)
+    }
+}
+

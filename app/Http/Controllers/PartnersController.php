@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Resources\Project as ProjectResource;
-use App\Models\Project;
+use App\Http\Resources\Partners as PartnersResource;
+use App\Models\Partners;
 
-class ProjectController extends Controller
+class PartnersController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,18 +15,9 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        //
+        return PartnersResource::collection(Partners::latest()->get());
     }
-    public function indexActually()
-    {
-        $actuallyProject = ProjectResource::collection(Project::where('actually', '1')->latest()->get());
-        return $actuallyProject;
-    }
-    public function indexNonActually()
-    {
-        $nonActuallyProject = ProjectResource::collection(Project::where('actually', null)->orWhere('actually', '0')->orderBy('id', 'DESC')->paginate(6));
-        return $nonActuallyProject;
-    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -56,7 +47,7 @@ class ProjectController extends Controller
      */
     public function show($id)
     {
-        return new ProjectResource(Project::findOrFail($id));
+        //
     }
 
     /**

@@ -28,6 +28,7 @@ import AdminPageContainer from "./admin/AdminPageContainer";
 import Errror404 from "./Errror404/Errror404";
 import NewsItem from "./news/NewsItem";
 import EventItem from "./meros/EventItem";
+import ProjectItem from "./projects/ProjectItem";
 
 
 
@@ -64,6 +65,7 @@ const App = () => {
                     <Route path="/events/finished" render={() => <MerosFinished />} />
                     <Route path="/events/:id" render={() => <EventItem />} />
                     <Route path="/projects/finished" render={() => <ProjectFinished />} />
+                    <Route path="/projects/:id" render={() => <ProjectItem />} />
                     <Route exact path="/experts" render={() => <Experts />} />
                     <Route path="/experts/books" render={() => <Books />} />
                     <Route path="/contact" render={() => <Contact />} />

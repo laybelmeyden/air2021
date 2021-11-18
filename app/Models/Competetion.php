@@ -8,4 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Competetion extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'id',
+        'title',
+        'svg',
+        'modal_name',
+        'page',
+        'image',
+        'body',
+        'unbody',
+        'other2',
+    ];
 }

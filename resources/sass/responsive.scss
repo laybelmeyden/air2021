@@ -127,6 +127,24 @@
     }
 }
 @media screen and (max-width: 992px) {
+    .partners{
+        .partners__item{
+            .partners__grid {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                .item {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                    &:hover {
+                        opacity: 0.4;
+                    }
+                }
+            }
+        }
+    }
     .err__404 {
         h1 {
             font-size: 5em;
@@ -268,6 +286,7 @@
             .card {
                 width: 100%;
                 height: 450px;
+                padding: 40px 15px;
             }
         }
     }
@@ -327,7 +346,7 @@
             position: relative;
             padding: 20px 20px;
             height: 100%;
-            overflow: scroll;
+            overflow-y: scroll;
             max-height: 500px;
             .item__title {
                 p {

@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name="description" content="АИР" />
-  <META NAME="keywords" CONTENT="Технологии прекрасного - окружные школы цифрового искусства">
+  <META NAME="keywords" CONTENT="АИР - Агентство инновационного развития">
   <META NAME="AUTHOR" CONTENT="https://vk.com/glrlcocks">
   <meta name="revisit-after" content="5 days">
-  <link rel="SHORTCUT ICON" href="assets/img/506-5061203_-png-9-1.svg" type="image/x-icon">
+  <link rel="SHORTCUT ICON" href="/assets/img/air_fav.png" type="image/x-icon">
   <!--соц сети-->
-  <meta property="og:title" content="Технологии прекрасного - окружные школы цифрового искусства">
-  <meta property="og:description" content="Проект направлен на активную творческую молодежь (16-30 лет), которая стремиться создавать собственные проекты в сфере цифрового искусства и реализовать свой творческий потенциал.">
-  <meta property="og:image" content="/assets/img/social.png">
-  <meta itemprop="image" content="/assets/img/social.png" />
-  <meta name="twitter:image:src" content="/assets/img/social.png" />
-  <meta property="og:url" content="">
+  <meta property="og:title" content="АИР - Агентство инновационного развития">
+  <meta property="og:description" content="Социально-ориентированная некоммерческая организация, реализующая научно-исследовательские проекты в сфере IT, мероприятия, направленные на популяризацию научно-технического творчества в сфере цифровых технологий, образовательные проекты.">
+  <meta property="og:image" content="/assets/img/airsocial.png">
+  <meta itemprop="image" content="/assets/img/airsocial.png" />
+  <meta name="twitter:image:src" content="/assets/img/airsocial.png" />
+  <meta property="og:url" content="/assets/img/airsocial.png">
   <link rel="stylesheet" href="{{ mix('css/main.css')}}">
   <link rel="stylesheet" href="{{ mix('css/responsive.css')}}">
 

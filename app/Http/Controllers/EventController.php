@@ -15,12 +15,12 @@ class EventController extends Controller
      */
     public function index()
     {
-        $allEvent =  EventResource::collection(Event::latest()->orderByRaw('id','DESC')->get());
+        $allEvent =  EventResource::collection(Event::latest()->get());
         return $allEvent;
     }
     public function indexActually()
     {
-        $actuallyEvent = EventResource::collection(Event::where('actually', '1')->orderByRaw('id','DESC')->paginate(6));
+        $actuallyEvent = EventResource::collection(Event::where('actually', '1')->latest()->paginate(6));
         return $actuallyEvent;
     }
     public function indexNonActually()

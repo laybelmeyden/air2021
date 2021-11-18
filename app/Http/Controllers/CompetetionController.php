@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Resources\Competetion as CompetetionResource;
+use App\Models\Competetion;
 
 class CompetetionController extends Controller
 {
@@ -13,7 +15,7 @@ class CompetetionController extends Controller
      */
     public function index()
     {
-        //
+        return CompetetionResource::collection(Competetion::latest()->get());
     }
 
     /**

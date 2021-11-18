@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProject extends Migration
+class CreateCompetetions extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,16 @@ class CreateProject extends Migration
      */
     public function up()
     {
-        Schema::create('project', function (Blueprint $table) {
+        Schema::create('competetions', function (Blueprint $table) {
             $table->id();
             $table->string('title')->nullable();
-            $table->longtext('body')->nullable();
-            $table->string('image')->nullable();
-            $table->string('icon')->nullable();
-            $table->string('status')->nullable();
+            $table->longtext('svg')->nullable();
+            $table->string('modal_name')->nullable();
             $table->string('page')->nullable();
-            $table->string('minititle')->nullable();
+            $table->string('image')->nullable();
+            $table->longtext('body')->nullable();
+            $table->text('unbody')->nullable();
+            $table->string('other2')->nullable();
             $table->timestamps();
         });
     }
@@ -33,6 +34,6 @@ class CreateProject extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('project');
+        Schema::dropIfExists('competetions');
     }
 }
