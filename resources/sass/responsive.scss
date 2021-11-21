@@ -122,7 +122,7 @@
     .experts .item__books .books__grid {
         grid-template-columns: 1fr;
     }
-    .item__document, .item__cooperation, .item__about, .item__teams, .item__contact {
+    .item__contact {
         z-index: -1;
     }
 }
@@ -227,6 +227,10 @@
     .grid__item .item__document .item__link {
         flex-direction: column;
         row-gap: 30px;
+        align-items: center;
+    }
+    .name{
+        text-align: center;
     }
     .grid__item .item__about .item__title .item h3 {
         font-size: 16px;
