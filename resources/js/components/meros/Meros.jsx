@@ -45,10 +45,10 @@ const Meros = () => {
                                 <div
                                     className="bcg__main"
                                     style={{
-                                        backgroundImage: `url(/storage/${e.image})`,
+                                        backgroundImage: `url(/storage/${e.preimg})`,
                                     }}
                                 ></div>
-                                <p className="date">{e.date}</p>
+                                <p className="date">{e.date}{e.time}</p>
                                 <p className="title">
                                     {e.title.slice(0, 60) + "..."}
                                 </p>

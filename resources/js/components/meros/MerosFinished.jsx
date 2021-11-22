@@ -43,14 +43,14 @@ const MerosFinished = () => {
                         (e, index) =>
                             e.actually != true && (
                                 <Link to={`/events/${e.id}`} key={e.id}>
-                                    <div className="card">
+                                    <div className="card card__oldest">
                                         <div
                                             className="bcg__main"
                                             style={{
                                                 backgroundImage: `url(/storage/${e.image})`,
                                             }}
                                         ></div>
-                                        <p className="date">{e.date}</p>
+                                        <p className="date">{e.date} {e.time}</p>
                                         <p className="title">
                                             {e.title.slice(0, 60) + "..."}
                                         </p>

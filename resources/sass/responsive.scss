@@ -33,6 +33,9 @@
         margin-top: 50px;
         margin-bottom: 38px;
     }
+    .mero__slider .item__img {
+        background-position: right;
+    }
     .grid__item {
         grid-template-columns: 1fr;
         .side__bar__comp {
@@ -398,7 +401,6 @@
             a {
                 .card {
                     width: 200px;
-                    height: auto;
                     p {
                         font-size: 12px;
                         word-break: break-word;

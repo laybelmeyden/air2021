@@ -173,7 +173,7 @@ const MainPageContainer = () => {
         speed: 1000,
         autoplaySpeed: 7000,
         slidesToShow: 1,
-        autoplay: true,
+        autoplay: false,
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,

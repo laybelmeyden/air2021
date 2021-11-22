@@ -32,6 +32,7 @@ class Event extends JsonResource
             'preimg' => $this->preimg,
             'status' => $this->status,
             'actually' => $this->actually,
+            'slider__img' => $this->slider__img,
         ];
     }
 }

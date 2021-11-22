@@ -218,15 +218,14 @@ nav {
 .item__events {
     margin-top: 20px !important;
     margin-bottom: 38px !important;
+    .events__img{
+        background: linear-gradient(0deg, rgba(26, 45, 121, 0.7), rgba(26, 45, 121, 0.7));
+    }
     .img {
         width: 100%;
-        height: 340px;
-        background: linear-gradient(
-            0deg,
-            rgba(26, 45, 121, 0.7),
-            rgba(26, 45, 121, 0.7)
-        );
+        height: 360px;
         position: relative;
+        // background: linear-gradient(0deg, rgba(26, 45, 121, 0.7), rgba(26, 45, 121, 0.7));
         .bcg__main {
             background-position: center;
             background-repeat: no-repeat;
@@ -309,6 +308,10 @@ nav {
         height: 100%;
         margin-top: 20px;
         padding-left: 60px;
+        background-color: #edf2f7;
+        background-repeat: no-repeat;
+        background-position: bottom 0 right 106px;
+        background-size: contain;
         .bcg__main {
             background-position: center;
             background-repeat: no-repeat;
@@ -331,6 +334,7 @@ nav {
             color: #014483;
             padding-top: 66px;
             padding-bottom: 30px;
+            text-transform: uppercase;
         }
         .item__title {
             font-style: normal;
@@ -543,8 +547,8 @@ nav {
                 font-size: 20px;
                 line-height: 136.02%;
             }
-            a{
-               color: #014483; 
+            a {
+                color: #014483;
             }
             p,
             li {
@@ -737,6 +741,7 @@ nav {
             padding: 40px 40px 53px 40px;
         }
     }
+
     .card {
         width: 373px;
         height: 450px;
@@ -765,6 +770,7 @@ nav {
             line-height: 136.52%;
             color: #ffffff;
             padding-bottom: 51px;
+            text-transform: uppercase;
         }
         .title {
             font-style: normal;

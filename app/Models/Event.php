@@ -25,5 +25,6 @@ class Event extends Model
         'seo_description',
         'seo_keywords',
         'preimg',
+        'slider__img',
     ];
 }

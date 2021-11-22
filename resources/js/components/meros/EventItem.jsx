@@ -21,7 +21,7 @@ const EventItem = () => {
                 <meta name="description" content={event.title} />
             </Helmet>
             <div className="container item__events">
-                <div className="img">
+                <div className="img events__img">
                     <div
                         className="bcg__main"
                         style={{

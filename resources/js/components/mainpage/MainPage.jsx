@@ -8,7 +8,6 @@ import Modal from "@mui/material/Modal";
 import Footer from "../footer/Footer";
 import { CompetetionsAPI, EventsAPI, NewsAPI, PartnersAPI } from "../api";
 
-
 const Mainpage = (props) => {
     React.useEffect(() => {
         window.scrollTo(0, 0);
@@ -54,11 +53,12 @@ const Mainpage = (props) => {
                                             <div
                                                 className="item__img"
                                                 style={{
-                                                    // backgroundImage: `url(/storage/${e.image})`,
-                                                    backgroundImage: `url(/assets/img/meroone.png)`,
+                                                    backgroundImage: `url(/storage/${e.slider__img})`,
                                                 }}
                                             >
-                                                {/* <div className="bcg__main"></div> */}
+                                                {/* <div className="bcg__main" style={{
+                                                     backgroundImage: `url(/storage/${e.slider__img})`
+                                                }}></div> */}
                                                 <p className="item__date">
                                                     {e.time}
                                                 </p>
@@ -161,12 +161,16 @@ const Mainpage = (props) => {
                                         <p>{e.title}</p>
                                     </div>
                                     <div className="item__body">
-                                        <p dangerouslySetInnerHTML={{
-                                            __html: e.body,
-                                        }}></p>
-                                        <ul dangerouslySetInnerHTML={{
-                                            __html: e.other2,
-                                        }}></ul>
+                                        <p
+                                            dangerouslySetInnerHTML={{
+                                                __html: e.body,
+                                            }}
+                                        ></p>
+                                        <ul
+                                            dangerouslySetInnerHTML={{
+                                                __html: e.other2,
+                                            }}
+                                        ></ul>
                                         <p>{e.unbody}</p>
                                     </div>
                                 </div>
@@ -188,7 +192,7 @@ const Mainpage = (props) => {
                                                 <div
                                                     className="bcg__main"
                                                     style={{
-                                                        backgroundImage: `url(/storage/${e.image})`,
+                                                        backgroundImage: `url(/storage/${e.preimg})`,
                                                     }}
                                                 ></div>
                                                 <p className="date">{e.time}</p>
@@ -283,10 +287,7 @@ const Mainpage = (props) => {
                         {partners.map((e, index) => (
                             <a href={e.body} key={e + index}>
                                 <div className="item">
-                                    <img
-                                        src={`storage/${e.image}`}
-                                        alt={e}
-                                    />
+                                    <img src={`storage/${e.image}`} alt={e} />
                                 </div>
                             </a>
                         ))}
