@@ -25,7 +25,7 @@ export default function NewsItem() {
                     <div
                         className="bcg__main"
                         style={{
-                            backgroundImage: `url(/storage/${news.image})`,
+                            backgroundImage: `url(/storage/${news.other2 ? news.other2 : news.image})`,
                         }}
                     ></div>
                 </div>

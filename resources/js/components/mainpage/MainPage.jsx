@@ -237,7 +237,7 @@ const Mainpage = (props) => {
                                         <div
                                             className="img"
                                             style={{
-                                                backgroundImage: `url(/storage/${e.image})`,
+                                                backgroundImage: `url(/storage/${e.other2 ? e.other2 : e.image})`,
                                             }}
                                         ></div>
                                         <div className="news__text">
