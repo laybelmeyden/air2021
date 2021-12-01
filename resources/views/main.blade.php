@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html  lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+  <title>АИР - Агентство инновационного развития</title>
   <meta charset="UTF-8">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name="title" content="АИР - Агентство инновационного развития" />
