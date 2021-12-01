@@ -14,7 +14,7 @@ class SitemapController extends Controller
     public function index()
     {
         // create new sitemap object
-        $sitemap = App::make("sitemap");
+        $sitemap = app()->make("sitemap");
 
         // add items to the sitemap (url, date, priority, freq)
         $sitemap->add(URL::to('news'), '2012-08-26T12:30:00+02:00', '1.0', 'daily');
@@ -37,6 +37,6 @@ class SitemapController extends Controller
         // generate your sitemap (format, filename)
         $sitemap->store('xml', 'sitemap');
         // this will generate file mysitemap.xml to your public folder
-        // return redirect(url('sitemap.xml'));
+        return redirect(url('sitemap.xml'));
     }
 }
