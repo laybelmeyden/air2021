@@ -25,6 +25,12 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .item__projects .project__grid .card__project {
+        height: auto;
+    }
+    .item__projects .project__grid .card__project .item__img {
+        height: auto;
+    }
     .item__document,
     .item__cooperation,
     .item__about,
@@ -130,6 +136,13 @@
     }
 }
 @media screen and (max-width: 992px) {
+    .item__projects__solo {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .item__projects__solo .img {
+        width: 100%;
+    }
     .partners{
         .partners__item{
             .partners__grid {

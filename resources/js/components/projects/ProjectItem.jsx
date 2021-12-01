@@ -22,7 +22,7 @@ const ProjectItem = () => {
                 <title>{project.title}</title>
                 <meta name="description" content={project.title} />
             </Helmet>
-            <div className="container item__events">
+            <div className="container item__projects__solo">
                 <div className="img">
                     <div
                         className="bcg__main"
@@ -31,8 +31,10 @@ const ProjectItem = () => {
                         }}
                     ></div>
                 </div>
+                <div>
                 <h1>{project.title}</h1>
                 <h2 dangerouslySetInnerHTML={{ __html: project.body }}></h2>
+                </div>
             </div>
             <Footer />
         </div>
