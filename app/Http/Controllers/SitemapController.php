@@ -6,15 +6,17 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\URL;
+use Laravelium\Sitemap\Sitemap;
+
 
 
 
 class SitemapController extends Controller
 {
-    public function index()
+    public function index(Sitemap $sitemap)
     {
         // create new sitemap object
-        $sitemap = app()->make("sitemap");
+        // $sitemap = app()->make("sitemap");
 
         // add items to the sitemap (url, date, priority, freq)
         $sitemap->add(URL::to('news'), '2012-08-26T12:30:00+02:00', '1.0', 'daily');
