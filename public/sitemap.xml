@@ -2,2377 +2,2377 @@
 <?xml-stylesheet href="/vendor/sitemap/styles/xml.xsl" type="text/xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 	<url>
-	<loc>http://127.0.0.1:8000/news</loc>
+	<loc>https://rusinnovations.com/news</loc>
 		<priority>1.0</priority>
 		<lastmod>2012-08-26T10:30:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events</loc>
+	<loc>https://rusinnovations.com/events</loc>
 		<priority>1.0</priority>
 		<lastmod>2012-08-26T10:30:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects</loc>
+	<loc>https://rusinnovations.com/projects</loc>
 		<priority>1.0</priority>
 		<lastmod>2012-08-26T10:30:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/10</loc>
+	<loc>https://rusinnovations.com/news/10</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:05:43+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/11</loc>
+	<loc>https://rusinnovations.com/news/11</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:08:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/12</loc>
+	<loc>https://rusinnovations.com/news/12</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:09:22+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/13</loc>
+	<loc>https://rusinnovations.com/news/13</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:28:09+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/14</loc>
+	<loc>https://rusinnovations.com/news/14</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:12:06+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/15</loc>
+	<loc>https://rusinnovations.com/news/15</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:14:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/16</loc>
+	<loc>https://rusinnovations.com/news/16</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:15:34+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/17</loc>
+	<loc>https://rusinnovations.com/news/17</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:16:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/18</loc>
+	<loc>https://rusinnovations.com/news/18</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:18:43+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/19</loc>
+	<loc>https://rusinnovations.com/news/19</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:20:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/20</loc>
+	<loc>https://rusinnovations.com/news/20</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:24:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/21</loc>
+	<loc>https://rusinnovations.com/news/21</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:22:49+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/22</loc>
+	<loc>https://rusinnovations.com/news/22</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:25:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/23</loc>
+	<loc>https://rusinnovations.com/news/23</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:35:12+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/24</loc>
+	<loc>https://rusinnovations.com/news/24</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:36:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/25</loc>
+	<loc>https://rusinnovations.com/news/25</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:37:33+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/26</loc>
+	<loc>https://rusinnovations.com/news/26</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:39:32+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/27</loc>
+	<loc>https://rusinnovations.com/news/27</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:40:21+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/28</loc>
+	<loc>https://rusinnovations.com/news/28</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:41:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/29</loc>
+	<loc>https://rusinnovations.com/news/29</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:42:22+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/30</loc>
+	<loc>https://rusinnovations.com/news/30</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:55:55+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/31</loc>
+	<loc>https://rusinnovations.com/news/31</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:57:53+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/32</loc>
+	<loc>https://rusinnovations.com/news/32</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:58:56+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/33</loc>
+	<loc>https://rusinnovations.com/news/33</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-30T23:59:52+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/34</loc>
+	<loc>https://rusinnovations.com/news/34</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:01:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/35</loc>
+	<loc>https://rusinnovations.com/news/35</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:02:11+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/36</loc>
+	<loc>https://rusinnovations.com/news/36</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:03:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/37</loc>
+	<loc>https://rusinnovations.com/news/37</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:04:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/38</loc>
+	<loc>https://rusinnovations.com/news/38</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:05:33+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/39</loc>
+	<loc>https://rusinnovations.com/news/39</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:06:26+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/40</loc>
+	<loc>https://rusinnovations.com/news/40</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:07:27+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/41</loc>
+	<loc>https://rusinnovations.com/news/41</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:08:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/42</loc>
+	<loc>https://rusinnovations.com/news/42</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:09:37+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/43</loc>
+	<loc>https://rusinnovations.com/news/43</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:10:29+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/44</loc>
+	<loc>https://rusinnovations.com/news/44</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:11:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/45</loc>
+	<loc>https://rusinnovations.com/news/45</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:12:46+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/46</loc>
+	<loc>https://rusinnovations.com/news/46</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:13:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/47</loc>
+	<loc>https://rusinnovations.com/news/47</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:15:03+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/48</loc>
+	<loc>https://rusinnovations.com/news/48</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:16:22+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/49</loc>
+	<loc>https://rusinnovations.com/news/49</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:17:54+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/50</loc>
+	<loc>https://rusinnovations.com/news/50</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:19:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/51</loc>
+	<loc>https://rusinnovations.com/news/51</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:20:09+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/52</loc>
+	<loc>https://rusinnovations.com/news/52</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:21:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/53</loc>
+	<loc>https://rusinnovations.com/news/53</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:22:48+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/54</loc>
+	<loc>https://rusinnovations.com/news/54</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:23:41+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/55</loc>
+	<loc>https://rusinnovations.com/news/55</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:25:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/56</loc>
+	<loc>https://rusinnovations.com/news/56</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:26:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/57</loc>
+	<loc>https://rusinnovations.com/news/57</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:28:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/58</loc>
+	<loc>https://rusinnovations.com/news/58</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:29:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/59</loc>
+	<loc>https://rusinnovations.com/news/59</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:30:46+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/60</loc>
+	<loc>https://rusinnovations.com/news/60</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:31:55+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/61</loc>
+	<loc>https://rusinnovations.com/news/61</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:33:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/62</loc>
+	<loc>https://rusinnovations.com/news/62</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:34:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/63</loc>
+	<loc>https://rusinnovations.com/news/63</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:35:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/64</loc>
+	<loc>https://rusinnovations.com/news/64</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:36:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/65</loc>
+	<loc>https://rusinnovations.com/news/65</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:38:01+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/66</loc>
+	<loc>https://rusinnovations.com/news/66</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:39:26+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/67</loc>
+	<loc>https://rusinnovations.com/news/67</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:41:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/68</loc>
+	<loc>https://rusinnovations.com/news/68</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T00:43:19+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/69</loc>
+	<loc>https://rusinnovations.com/news/69</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:18:28+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/70</loc>
+	<loc>https://rusinnovations.com/news/70</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:19:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/71</loc>
+	<loc>https://rusinnovations.com/news/71</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:21:21+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/72</loc>
+	<loc>https://rusinnovations.com/news/72</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:23:43+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/73</loc>
+	<loc>https://rusinnovations.com/news/73</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:24:57+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/74</loc>
+	<loc>https://rusinnovations.com/news/74</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:26:21+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/75</loc>
+	<loc>https://rusinnovations.com/news/75</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:27:32+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/76</loc>
+	<loc>https://rusinnovations.com/news/76</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:29:02+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/77</loc>
+	<loc>https://rusinnovations.com/news/77</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:30:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/78</loc>
+	<loc>https://rusinnovations.com/news/78</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-08-31T02:31:21+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/79</loc>
+	<loc>https://rusinnovations.com/news/79</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:31:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/80</loc>
+	<loc>https://rusinnovations.com/news/80</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:30:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/81</loc>
+	<loc>https://rusinnovations.com/news/81</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:28:33+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/82</loc>
+	<loc>https://rusinnovations.com/news/82</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:28:15+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/83</loc>
+	<loc>https://rusinnovations.com/news/83</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:27:53+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/84</loc>
+	<loc>https://rusinnovations.com/news/84</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:26:26+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/85</loc>
+	<loc>https://rusinnovations.com/news/85</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:25:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/86</loc>
+	<loc>https://rusinnovations.com/news/86</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:25:17+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/87</loc>
+	<loc>https://rusinnovations.com/news/87</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:24:08+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/88</loc>
+	<loc>https://rusinnovations.com/news/88</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-04T18:22:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/89</loc>
+	<loc>https://rusinnovations.com/news/89</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-07T11:39:02+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/90</loc>
+	<loc>https://rusinnovations.com/news/90</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-07T10:51:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/92</loc>
+	<loc>https://rusinnovations.com/news/92</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-15T12:48:06+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/93</loc>
+	<loc>https://rusinnovations.com/news/93</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-21T11:36:29+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/98</loc>
+	<loc>https://rusinnovations.com/news/98</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-21T11:33:52+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/99</loc>
+	<loc>https://rusinnovations.com/news/99</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-09-22T10:46:34+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/100</loc>
+	<loc>https://rusinnovations.com/news/100</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-10-06T20:11:22+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/101</loc>
+	<loc>https://rusinnovations.com/news/101</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-10-03T11:48:05+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/102</loc>
+	<loc>https://rusinnovations.com/news/102</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-10-11T08:44:36+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/103</loc>
+	<loc>https://rusinnovations.com/news/103</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-11-13T11:08:22+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/106</loc>
+	<loc>https://rusinnovations.com/news/106</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-11-14T20:58:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/111</loc>
+	<loc>https://rusinnovations.com/news/111</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-11-17T21:56:45+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/112</loc>
+	<loc>https://rusinnovations.com/news/112</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-11-18T15:07:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/113</loc>
+	<loc>https://rusinnovations.com/news/113</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-11-20T17:10:36+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/114</loc>
+	<loc>https://rusinnovations.com/news/114</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-11-23T21:05:36+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/115</loc>
+	<loc>https://rusinnovations.com/news/115</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-11-24T21:01:40+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/116</loc>
+	<loc>https://rusinnovations.com/news/116</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-12-10T08:50:48+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/117</loc>
+	<loc>https://rusinnovations.com/news/117</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-12-10T08:53:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/118</loc>
+	<loc>https://rusinnovations.com/news/118</loc>
 		<priority>1.0</priority>
 		<lastmod>2017-12-18T14:46:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/119</loc>
+	<loc>https://rusinnovations.com/news/119</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-01-23T23:17:49+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/121</loc>
+	<loc>https://rusinnovations.com/news/121</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-01-30T14:42:01+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/122</loc>
+	<loc>https://rusinnovations.com/news/122</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-01-31T14:04:47+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/123</loc>
+	<loc>https://rusinnovations.com/news/123</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-02-01T21:51:27+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/124</loc>
+	<loc>https://rusinnovations.com/news/124</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-02-21T17:12:02+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/125</loc>
+	<loc>https://rusinnovations.com/news/125</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-02-28T16:20:40+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/126</loc>
+	<loc>https://rusinnovations.com/news/126</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-15T15:57:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/127</loc>
+	<loc>https://rusinnovations.com/news/127</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-16T14:21:59+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/128</loc>
+	<loc>https://rusinnovations.com/news/128</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-03T21:53:36+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/130</loc>
+	<loc>https://rusinnovations.com/news/130</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-21T16:20:37+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/131</loc>
+	<loc>https://rusinnovations.com/news/131</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-23T13:53:06+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/132</loc>
+	<loc>https://rusinnovations.com/news/132</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-23T13:55:30+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/133</loc>
+	<loc>https://rusinnovations.com/news/133</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-23T13:57:29+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/134</loc>
+	<loc>https://rusinnovations.com/news/134</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-23T13:59:49+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/135</loc>
+	<loc>https://rusinnovations.com/news/135</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-28T16:57:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/136</loc>
+	<loc>https://rusinnovations.com/news/136</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-28T17:03:22+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/137</loc>
+	<loc>https://rusinnovations.com/news/137</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-03-30T17:49:28+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/138</loc>
+	<loc>https://rusinnovations.com/news/138</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-02T15:44:23+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/140</loc>
+	<loc>https://rusinnovations.com/news/140</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-04T12:30:05+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/141</loc>
+	<loc>https://rusinnovations.com/news/141</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-04T20:53:37+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/142</loc>
+	<loc>https://rusinnovations.com/news/142</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-06T20:58:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/143</loc>
+	<loc>https://rusinnovations.com/news/143</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-09T20:58:40+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/144</loc>
+	<loc>https://rusinnovations.com/news/144</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-13T21:21:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/145</loc>
+	<loc>https://rusinnovations.com/news/145</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-14T15:04:10+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/146</loc>
+	<loc>https://rusinnovations.com/news/146</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-16T17:09:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/147</loc>
+	<loc>https://rusinnovations.com/news/147</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-17T16:09:53+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/148</loc>
+	<loc>https://rusinnovations.com/news/148</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-17T15:30:17+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/149</loc>
+	<loc>https://rusinnovations.com/news/149</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-17T16:08:55+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/150</loc>
+	<loc>https://rusinnovations.com/news/150</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-17T16:18:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/151</loc>
+	<loc>https://rusinnovations.com/news/151</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-04-22T16:52:14+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/152</loc>
+	<loc>https://rusinnovations.com/news/152</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-05-03T15:26:21+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/153</loc>
+	<loc>https://rusinnovations.com/news/153</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-05-03T15:40:48+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/154</loc>
+	<loc>https://rusinnovations.com/news/154</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-05-14T15:49:11+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/155</loc>
+	<loc>https://rusinnovations.com/news/155</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-05-17T15:33:17+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/156</loc>
+	<loc>https://rusinnovations.com/news/156</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-05-21T16:11:46+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/157</loc>
+	<loc>https://rusinnovations.com/news/157</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-05-31T09:39:28+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/158</loc>
+	<loc>https://rusinnovations.com/news/158</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-05-31T15:05:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/159</loc>
+	<loc>https://rusinnovations.com/news/159</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-06-07T20:10:40+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/160</loc>
+	<loc>https://rusinnovations.com/news/160</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-06-14T19:30:22+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/161</loc>
+	<loc>https://rusinnovations.com/news/161</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-06-20T06:26:51+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/162</loc>
+	<loc>https://rusinnovations.com/news/162</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-06-20T16:14:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/163</loc>
+	<loc>https://rusinnovations.com/news/163</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-06-24T21:11:26+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/164</loc>
+	<loc>https://rusinnovations.com/news/164</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-07-11T20:34:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/165</loc>
+	<loc>https://rusinnovations.com/news/165</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-07-13T20:37:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/166</loc>
+	<loc>https://rusinnovations.com/news/166</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-07-13T20:44:09+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/168</loc>
+	<loc>https://rusinnovations.com/news/168</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-09-03T08:10:25+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/170</loc>
+	<loc>https://rusinnovations.com/news/170</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-09-14T21:18:26+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/171</loc>
+	<loc>https://rusinnovations.com/news/171</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-09-14T21:19:56+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/172</loc>
+	<loc>https://rusinnovations.com/news/172</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-09-18T17:42:28+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/173</loc>
+	<loc>https://rusinnovations.com/news/173</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-09-24T15:39:17+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/174</loc>
+	<loc>https://rusinnovations.com/news/174</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-09-26T16:52:02+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/175</loc>
+	<loc>https://rusinnovations.com/news/175</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-01T14:44:38+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/176</loc>
+	<loc>https://rusinnovations.com/news/176</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-01T14:51:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/177</loc>
+	<loc>https://rusinnovations.com/news/177</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-12T16:50:30+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/178</loc>
+	<loc>https://rusinnovations.com/news/178</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-03T16:22:56+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/179</loc>
+	<loc>https://rusinnovations.com/news/179</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-03T16:26:30+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/180</loc>
+	<loc>https://rusinnovations.com/news/180</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-10T16:09:59+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/181</loc>
+	<loc>https://rusinnovations.com/news/181</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-22T22:41:36+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/182</loc>
+	<loc>https://rusinnovations.com/news/182</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-24T17:10:47+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/183</loc>
+	<loc>https://rusinnovations.com/news/183</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-10-29T16:01:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/184</loc>
+	<loc>https://rusinnovations.com/news/184</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-11-02T16:13:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/185</loc>
+	<loc>https://rusinnovations.com/news/185</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-11-06T14:46:11+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/186</loc>
+	<loc>https://rusinnovations.com/news/186</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-11-14T14:56:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/187</loc>
+	<loc>https://rusinnovations.com/news/187</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-11-16T14:21:08+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/188</loc>
+	<loc>https://rusinnovations.com/news/188</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-11-19T16:14:38+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/189</loc>
+	<loc>https://rusinnovations.com/news/189</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-11-21T16:36:12+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/190</loc>
+	<loc>https://rusinnovations.com/news/190</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-11-26T16:36:32+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/191</loc>
+	<loc>https://rusinnovations.com/news/191</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-11-28T11:13:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/192</loc>
+	<loc>https://rusinnovations.com/news/192</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-13T21:20:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/193</loc>
+	<loc>https://rusinnovations.com/news/193</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-17T19:27:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/194</loc>
+	<loc>https://rusinnovations.com/news/194</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-25T12:48:54+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/195</loc>
+	<loc>https://rusinnovations.com/news/195</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-26T08:10:56+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/196</loc>
+	<loc>https://rusinnovations.com/news/196</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-01-16T12:48:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/197</loc>
+	<loc>https://rusinnovations.com/news/197</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-01-28T13:46:40+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/198</loc>
+	<loc>https://rusinnovations.com/news/198</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-02-03T18:44:40+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/200</loc>
+	<loc>https://rusinnovations.com/news/200</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-02-11T15:50:58+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/202</loc>
+	<loc>https://rusinnovations.com/news/202</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-02-12T12:14:39+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/203</loc>
+	<loc>https://rusinnovations.com/news/203</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-02-13T16:13:45+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/204</loc>
+	<loc>https://rusinnovations.com/news/204</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-02-26T14:04:25+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/208</loc>
+	<loc>https://rusinnovations.com/news/208</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-03-11T18:19:03+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/209</loc>
+	<loc>https://rusinnovations.com/news/209</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-03-14T14:32:53+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/210</loc>
+	<loc>https://rusinnovations.com/news/210</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-03-25T13:00:28+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/211</loc>
+	<loc>https://rusinnovations.com/news/211</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-03-15T13:24:39+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/212</loc>
+	<loc>https://rusinnovations.com/news/212</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-03-14T14:45:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/213</loc>
+	<loc>https://rusinnovations.com/news/213</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:22:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/214</loc>
+	<loc>https://rusinnovations.com/news/214</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:22:15+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/215</loc>
+	<loc>https://rusinnovations.com/news/215</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-03-21T14:29:17+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/217</loc>
+	<loc>https://rusinnovations.com/news/217</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:22:34+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/219</loc>
+	<loc>https://rusinnovations.com/news/219</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:22:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/220</loc>
+	<loc>https://rusinnovations.com/news/220</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:22:52+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/221</loc>
+	<loc>https://rusinnovations.com/news/221</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-04-08T15:14:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/222</loc>
+	<loc>https://rusinnovations.com/news/222</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:22:59+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/223</loc>
+	<loc>https://rusinnovations.com/news/223</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:23:06+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/224</loc>
+	<loc>https://rusinnovations.com/news/224</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:21:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/225</loc>
+	<loc>https://rusinnovations.com/news/225</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:21:49+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/226</loc>
+	<loc>https://rusinnovations.com/news/226</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:21:32+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/227</loc>
+	<loc>https://rusinnovations.com/news/227</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:21:27+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/228</loc>
+	<loc>https://rusinnovations.com/news/228</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:21:21+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/229</loc>
+	<loc>https://rusinnovations.com/news/229</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:21:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/230</loc>
+	<loc>https://rusinnovations.com/news/230</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:21:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/231</loc>
+	<loc>https://rusinnovations.com/news/231</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-04-29T15:50:53+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/232</loc>
+	<loc>https://rusinnovations.com/news/232</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:20:57+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/233</loc>
+	<loc>https://rusinnovations.com/news/233</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:20:51+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/234</loc>
+	<loc>https://rusinnovations.com/news/234</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-19T22:25:15+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/236</loc>
+	<loc>https://rusinnovations.com/news/236</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-20T21:35:38+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/237</loc>
+	<loc>https://rusinnovations.com/news/237</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-28T13:10:39+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/238</loc>
+	<loc>https://rusinnovations.com/news/238</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-28T13:15:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/239</loc>
+	<loc>https://rusinnovations.com/news/239</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-06-04T08:06:05+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/240</loc>
+	<loc>https://rusinnovations.com/news/240</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-06-04T08:11:29+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/242</loc>
+	<loc>https://rusinnovations.com/news/242</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-07-04T15:31:32+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/243</loc>
+	<loc>https://rusinnovations.com/news/243</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-09-13T14:42:54+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/245</loc>
+	<loc>https://rusinnovations.com/news/245</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-08-30T19:42:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/246</loc>
+	<loc>https://rusinnovations.com/news/246</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-09-11T14:03:03+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/247</loc>
+	<loc>https://rusinnovations.com/news/247</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-09-20T12:55:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/248</loc>
+	<loc>https://rusinnovations.com/news/248</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-09-20T13:50:23+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/249</loc>
+	<loc>https://rusinnovations.com/news/249</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-10-04T15:20:58+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/250</loc>
+	<loc>https://rusinnovations.com/news/250</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-07-06T11:56:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/254</loc>
+	<loc>https://rusinnovations.com/news/254</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-10-11T16:27:54+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/255</loc>
+	<loc>https://rusinnovations.com/news/255</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-10-15T12:48:33+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/256</loc>
+	<loc>https://rusinnovations.com/news/256</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-10-15T13:01:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/257</loc>
+	<loc>https://rusinnovations.com/news/257</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-10-18T17:00:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/258</loc>
+	<loc>https://rusinnovations.com/news/258</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-10-26T14:53:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/259</loc>
+	<loc>https://rusinnovations.com/news/259</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-10-29T14:21:52+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/260</loc>
+	<loc>https://rusinnovations.com/news/260</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-10-29T14:25:06+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/261</loc>
+	<loc>https://rusinnovations.com/news/261</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-11-11T12:09:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/262</loc>
+	<loc>https://rusinnovations.com/news/262</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-11-15T12:26:41+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/263</loc>
+	<loc>https://rusinnovations.com/news/263</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-11-20T11:57:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/264</loc>
+	<loc>https://rusinnovations.com/news/264</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-11-25T14:56:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/265</loc>
+	<loc>https://rusinnovations.com/news/265</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-11-25T15:02:51+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/266</loc>
+	<loc>https://rusinnovations.com/news/266</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-10T19:21:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/267</loc>
+	<loc>https://rusinnovations.com/news/267</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-10T19:25:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/268</loc>
+	<loc>https://rusinnovations.com/news/268</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-13T10:59:37+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/269</loc>
+	<loc>https://rusinnovations.com/news/269</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-13T11:05:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/270</loc>
+	<loc>https://rusinnovations.com/news/270</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-13T11:08:52+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/272</loc>
+	<loc>https://rusinnovations.com/news/272</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-19T14:45:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/273</loc>
+	<loc>https://rusinnovations.com/news/273</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-19T14:47:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/274</loc>
+	<loc>https://rusinnovations.com/news/274</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-26T11:18:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/275</loc>
+	<loc>https://rusinnovations.com/news/275</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-01-28T13:54:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/276</loc>
+	<loc>https://rusinnovations.com/news/276</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-03T12:36:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/277</loc>
+	<loc>https://rusinnovations.com/news/277</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-06T14:08:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/278</loc>
+	<loc>https://rusinnovations.com/news/278</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-07T13:04:28+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/279</loc>
+	<loc>https://rusinnovations.com/news/279</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-10T14:35:53+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/280</loc>
+	<loc>https://rusinnovations.com/news/280</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-11T12:46:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/281</loc>
+	<loc>https://rusinnovations.com/news/281</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-14T12:00:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/282</loc>
+	<loc>https://rusinnovations.com/news/282</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-19T12:42:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/283</loc>
+	<loc>https://rusinnovations.com/news/283</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-22T10:41:34+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/284</loc>
+	<loc>https://rusinnovations.com/news/284</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-26T12:19:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/285</loc>
+	<loc>https://rusinnovations.com/news/285</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-26T17:06:39+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/286</loc>
+	<loc>https://rusinnovations.com/news/286</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-28T14:54:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/287</loc>
+	<loc>https://rusinnovations.com/news/287</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-02T14:45:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/288</loc>
+	<loc>https://rusinnovations.com/news/288</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-04T14:02:38+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/289</loc>
+	<loc>https://rusinnovations.com/news/289</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-12T13:00:39+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/290</loc>
+	<loc>https://rusinnovations.com/news/290</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-12T16:35:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/291</loc>
+	<loc>https://rusinnovations.com/news/291</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-18T09:56:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/292</loc>
+	<loc>https://rusinnovations.com/news/292</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-20T14:10:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/293</loc>
+	<loc>https://rusinnovations.com/news/293</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-01T13:02:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/294</loc>
+	<loc>https://rusinnovations.com/news/294</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-15T07:30:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/295</loc>
+	<loc>https://rusinnovations.com/news/295</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-18T14:07:12+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/296</loc>
+	<loc>https://rusinnovations.com/news/296</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-23T12:03:12+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/297</loc>
+	<loc>https://rusinnovations.com/news/297</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-23T13:31:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/298</loc>
+	<loc>https://rusinnovations.com/news/298</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-27T14:46:05+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/299</loc>
+	<loc>https://rusinnovations.com/news/299</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-05-21T18:33:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/300</loc>
+	<loc>https://rusinnovations.com/news/300</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-05-25T10:56:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/301</loc>
+	<loc>https://rusinnovations.com/news/301</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-06-02T18:23:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/302</loc>
+	<loc>https://rusinnovations.com/news/302</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-06-08T12:55:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/303</loc>
+	<loc>https://rusinnovations.com/news/303</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-06-25T10:03:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/304</loc>
+	<loc>https://rusinnovations.com/news/304</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-02T20:30:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/305</loc>
+	<loc>https://rusinnovations.com/news/305</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-03T14:57:43+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/306</loc>
+	<loc>https://rusinnovations.com/news/306</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-13T14:06:59+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/307</loc>
+	<loc>https://rusinnovations.com/news/307</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-13T14:21:39+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/308</loc>
+	<loc>https://rusinnovations.com/news/308</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-15T20:23:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/309</loc>
+	<loc>https://rusinnovations.com/news/309</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-21T18:20:41+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/310</loc>
+	<loc>https://rusinnovations.com/news/310</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-09-25T13:44:51+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/311</loc>
+	<loc>https://rusinnovations.com/news/311</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-09-28T09:04:25+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/312</loc>
+	<loc>https://rusinnovations.com/news/312</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-10-08T13:36:28+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/313</loc>
+	<loc>https://rusinnovations.com/news/313</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-10-12T14:59:45+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/314</loc>
+	<loc>https://rusinnovations.com/news/314</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-10-13T13:35:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/315</loc>
+	<loc>https://rusinnovations.com/news/315</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-10-20T00:59:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/316</loc>
+	<loc>https://rusinnovations.com/news/316</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-10-23T16:22:58+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/317</loc>
+	<loc>https://rusinnovations.com/news/317</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-10-27T14:57:49+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/318</loc>
+	<loc>https://rusinnovations.com/news/318</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-10-30T14:07:53+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/319</loc>
+	<loc>https://rusinnovations.com/news/319</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-10-31T10:24:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/320</loc>
+	<loc>https://rusinnovations.com/news/320</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-11-03T12:46:02+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/321</loc>
+	<loc>https://rusinnovations.com/news/321</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-11-08T06:08:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/322</loc>
+	<loc>https://rusinnovations.com/news/322</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-11-10T14:53:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/323</loc>
+	<loc>https://rusinnovations.com/news/323</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-11-10T14:57:11+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/324</loc>
+	<loc>https://rusinnovations.com/news/324</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-11-11T07:40:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/325</loc>
+	<loc>https://rusinnovations.com/news/325</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-11-17T10:30:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/326</loc>
+	<loc>https://rusinnovations.com/news/326</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-12-01T10:19:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/327</loc>
+	<loc>https://rusinnovations.com/news/327</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-12-02T15:24:15+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/328</loc>
+	<loc>https://rusinnovations.com/news/328</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-12-02T15:35:05+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/329</loc>
+	<loc>https://rusinnovations.com/news/329</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-12-08T18:49:29+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/330</loc>
+	<loc>https://rusinnovations.com/news/330</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-12-09T17:00:06+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/331</loc>
+	<loc>https://rusinnovations.com/news/331</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-01-27T14:18:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/332</loc>
+	<loc>https://rusinnovations.com/news/332</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-02-17T14:14:55+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/333</loc>
+	<loc>https://rusinnovations.com/news/333</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-02-24T15:17:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/334</loc>
+	<loc>https://rusinnovations.com/news/334</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-12T21:37:09+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/335</loc>
+	<loc>https://rusinnovations.com/news/335</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-12T21:40:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/336</loc>
+	<loc>https://rusinnovations.com/news/336</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-17T19:37:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/337</loc>
+	<loc>https://rusinnovations.com/news/337</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-20T18:54:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/338</loc>
+	<loc>https://rusinnovations.com/news/338</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-20T18:56:01+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/339</loc>
+	<loc>https://rusinnovations.com/news/339</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-04-20T14:31:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/340</loc>
+	<loc>https://rusinnovations.com/news/340</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-04-29T15:13:30+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/341</loc>
+	<loc>https://rusinnovations.com/news/341</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-04-29T15:23:43+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/342</loc>
+	<loc>https://rusinnovations.com/news/342</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-04-29T15:31:58+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/343</loc>
+	<loc>https://rusinnovations.com/news/343</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-05-20T17:07:38+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/344</loc>
+	<loc>https://rusinnovations.com/news/344</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-05-20T17:08:42+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/345</loc>
+	<loc>https://rusinnovations.com/news/345</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-05-24T13:45:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/346</loc>
+	<loc>https://rusinnovations.com/news/346</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-05-24T13:46:58+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/347</loc>
+	<loc>https://rusinnovations.com/news/347</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-05-26T20:10:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/348</loc>
+	<loc>https://rusinnovations.com/news/348</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-06-02T06:04:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/349</loc>
+	<loc>https://rusinnovations.com/news/349</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-06-24T16:00:59+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/350</loc>
+	<loc>https://rusinnovations.com/news/350</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-07-06T17:55:36+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/351</loc>
+	<loc>https://rusinnovations.com/news/351</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-07-12T11:43:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/352</loc>
+	<loc>https://rusinnovations.com/news/352</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-09-28T20:11:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/353</loc>
+	<loc>https://rusinnovations.com/news/353</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-10-04T12:47:37+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/354</loc>
+	<loc>https://rusinnovations.com/news/354</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-10-05T11:36:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/355</loc>
+	<loc>https://rusinnovations.com/news/355</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-10-08T15:38:28+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/356</loc>
+	<loc>https://rusinnovations.com/news/356</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-10-14T14:18:01+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/357</loc>
+	<loc>https://rusinnovations.com/news/357</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-10-16T00:09:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/358</loc>
+	<loc>https://rusinnovations.com/news/358</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-10-19T17:50:31+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/359</loc>
+	<loc>https://rusinnovations.com/news/359</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-10-26T17:10:51+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/360</loc>
+	<loc>https://rusinnovations.com/news/360</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-11-08T13:17:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/news/361</loc>
+	<loc>https://rusinnovations.com/news/361</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-11-13T12:01:41+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/4</loc>
+	<loc>https://rusinnovations.com/events/4</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:24:21+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/5</loc>
+	<loc>https://rusinnovations.com/events/5</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:26:02+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/6</loc>
+	<loc>https://rusinnovations.com/events/6</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:25:36+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/7</loc>
+	<loc>https://rusinnovations.com/events/7</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:28:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/8</loc>
+	<loc>https://rusinnovations.com/events/8</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:29:15+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/9</loc>
+	<loc>https://rusinnovations.com/events/9</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:31:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/10</loc>
+	<loc>https://rusinnovations.com/events/10</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:32:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/11</loc>
+	<loc>https://rusinnovations.com/events/11</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:39:40+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/12</loc>
+	<loc>https://rusinnovations.com/events/12</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:38:53+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/13</loc>
+	<loc>https://rusinnovations.com/events/13</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:42:08+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/14</loc>
+	<loc>https://rusinnovations.com/events/14</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:43:33+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/15</loc>
+	<loc>https://rusinnovations.com/events/15</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:45:23+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/16</loc>
+	<loc>https://rusinnovations.com/events/16</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T12:47:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/17</loc>
+	<loc>https://rusinnovations.com/events/17</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T13:24:19+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/18</loc>
+	<loc>https://rusinnovations.com/events/18</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T13:31:56+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/19</loc>
+	<loc>https://rusinnovations.com/events/19</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T13:29:39+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/20</loc>
+	<loc>https://rusinnovations.com/events/20</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T13:31:41+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/21</loc>
+	<loc>https://rusinnovations.com/events/21</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T13:33:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/22</loc>
+	<loc>https://rusinnovations.com/events/22</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-09T13:35:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/23</loc>
+	<loc>https://rusinnovations.com/events/23</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-17T19:08:59+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/24</loc>
+	<loc>https://rusinnovations.com/events/24</loc>
 		<priority>1.0</priority>
 		<lastmod>2018-12-25T12:23:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/25</loc>
+	<loc>https://rusinnovations.com/events/25</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-01T21:38:03+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/26</loc>
+	<loc>https://rusinnovations.com/events/26</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-01T21:39:40+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/27</loc>
+	<loc>https://rusinnovations.com/events/27</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-01T21:40:49+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/28</loc>
+	<loc>https://rusinnovations.com/events/28</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-01T21:42:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/29</loc>
+	<loc>https://rusinnovations.com/events/29</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-01T21:43:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/30</loc>
+	<loc>https://rusinnovations.com/events/30</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-31T21:14:51+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/31</loc>
+	<loc>https://rusinnovations.com/events/31</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-31T21:17:14+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/32</loc>
+	<loc>https://rusinnovations.com/events/32</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-05-31T21:19:26+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/33</loc>
+	<loc>https://rusinnovations.com/events/33</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-11-07T15:15:27+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/34</loc>
+	<loc>https://rusinnovations.com/events/34</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-09T16:41:37+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/35</loc>
+	<loc>https://rusinnovations.com/events/35</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-09T16:43:05+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/36</loc>
+	<loc>https://rusinnovations.com/events/36</loc>
 		<priority>1.0</priority>
 		<lastmod>2019-12-09T16:43:59+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/37</loc>
+	<loc>https://rusinnovations.com/events/37</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-19T10:48:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/38</loc>
+	<loc>https://rusinnovations.com/events/38</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-02-19T10:52:03+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/39</loc>
+	<loc>https://rusinnovations.com/events/39</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-12T16:39:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/40</loc>
+	<loc>https://rusinnovations.com/events/40</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-12T16:40:09+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/41</loc>
+	<loc>https://rusinnovations.com/events/41</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-03-12T16:41:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/42</loc>
+	<loc>https://rusinnovations.com/events/42</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-18T15:57:10+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/43</loc>
+	<loc>https://rusinnovations.com/events/43</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-18T15:58:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/44</loc>
+	<loc>https://rusinnovations.com/events/44</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-04-18T15:59:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/45</loc>
+	<loc>https://rusinnovations.com/events/45</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-13T14:11:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/46</loc>
+	<loc>https://rusinnovations.com/events/46</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-13T14:12:09+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/47</loc>
+	<loc>https://rusinnovations.com/events/47</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-07-13T14:13:09+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/48</loc>
+	<loc>https://rusinnovations.com/events/48</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-12-02T15:32:35+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/49</loc>
+	<loc>https://rusinnovations.com/events/49</loc>
 		<priority>1.0</priority>
 		<lastmod>2020-12-08T18:47:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/50</loc>
+	<loc>https://rusinnovations.com/events/50</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-16T16:14:10+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/51</loc>
+	<loc>https://rusinnovations.com/events/51</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-16T16:16:34+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/52</loc>
+	<loc>https://rusinnovations.com/events/52</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-17T19:36:08+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/53</loc>
+	<loc>https://rusinnovations.com/events/53</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-20T18:52:49+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/54</loc>
+	<loc>https://rusinnovations.com/events/54</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-03-20T18:53:50+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/55</loc>
+	<loc>https://rusinnovations.com/events/55</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-04-20T14:33:11+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/56</loc>
+	<loc>https://rusinnovations.com/events/56</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-04-29T15:29:51+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/57</loc>
+	<loc>https://rusinnovations.com/events/57</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-05-18T18:13:06+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/58</loc>
+	<loc>https://rusinnovations.com/events/58</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-05-19T12:17:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/59</loc>
+	<loc>https://rusinnovations.com/events/59</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-05-26T20:11:41+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/60</loc>
+	<loc>https://rusinnovations.com/events/60</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-06-02T06:06:38+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/61</loc>
+	<loc>https://rusinnovations.com/events/61</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-06-02T06:07:30+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/62</loc>
+	<loc>https://rusinnovations.com/events/62</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-07-02T20:45:37+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/63</loc>
+	<loc>https://rusinnovations.com/events/63</loc>
 		<priority>1.0</priority>
 		<lastmod>2021-09-28T20:08:55+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/65</loc>
+	<loc>https://rusinnovations.com/events/65</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/67</loc>
+	<loc>https://rusinnovations.com/events/67</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/events/68</loc>
+	<loc>https://rusinnovations.com/events/68</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/1</loc>
+	<loc>https://rusinnovations.com/projects/1</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/2</loc>
+	<loc>https://rusinnovations.com/projects/2</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/3</loc>
+	<loc>https://rusinnovations.com/projects/3</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/4</loc>
+	<loc>https://rusinnovations.com/projects/4</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/5</loc>
+	<loc>https://rusinnovations.com/projects/5</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/6</loc>
+	<loc>https://rusinnovations.com/projects/6</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/7</loc>
+	<loc>https://rusinnovations.com/projects/7</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/8</loc>
+	<loc>https://rusinnovations.com/projects/8</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/9</loc>
+	<loc>https://rusinnovations.com/projects/9</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
-	<loc>http://127.0.0.1:8000/projects/10</loc>
+	<loc>https://rusinnovations.com/projects/10</loc>
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>

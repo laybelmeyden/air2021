@@ -20,24 +20,24 @@ class SitemapController extends Controller
     {
         // create new sitemap object
         $sitemap = App::make("sitemap");
-
+        $URL = 'https://rusinnovations.com/';
         // add items to the sitemap (url, date, priority, freq)
-        $sitemap->add(URL::to('news'), '2012-08-26T12:30:00+02:00', '1.0', 'daily');
-        $sitemap->add(URL::to('events'), '2012-08-26T12:30:00+02:00', '1.0', 'daily');
-        $sitemap->add(URL::to('projects'), '2012-08-26T12:30:00+02:00', '1.0', 'daily');
+        $sitemap->add($URL.'news', '2012-08-26T12:30:00+02:00', '1.0', 'daily');
+        $sitemap->add($URL.'events', '2012-08-26T12:30:00+02:00', '1.0', 'daily');
+        $sitemap->add($URL.'projects', '2012-08-26T12:30:00+02:00', '1.0', 'daily');
         // get all posts from db
         $allNewsMains = DB::table('news')->get();
         $allEventsMains = DB::table('events')->get();
         $allProjectsMains = DB::table('projects')->get();
         // add every post to the sitemap
         foreach ($allNewsMains as $allNewsMain) {
-            $sitemap->add(URL::to('news/' . $allNewsMain->id), $allNewsMain->updated_at, '1.0', 'daily');
+            $sitemap->add($URL.'news/'.$allNewsMain->id, $allNewsMain->updated_at, '1.0', 'daily');
         }
         foreach ($allEventsMains as $allEventsMain) {
-            $sitemap->add(URL::to('events/' . $allEventsMain->id), $allEventsMain->updated_at, '1.0', 'daily');
+            $sitemap->add($URL.'events/' . $allEventsMain->id, $allEventsMain->updated_at, '1.0', 'daily');
         }
         foreach ($allProjectsMains as $allProjectsMain) {
-            $sitemap->add(URL::to('projects/' . $allProjectsMain->id), $allProjectsMain->updated_at, '1.0', 'daily');
+            $sitemap->add($URL.'projects/' . $allProjectsMain->id, $allProjectsMain->updated_at, '1.0', 'daily');
         }
         // generate your sitemap (format, filename)
         $sitemap->store('xml', 'sitemap');
