@@ -1,7 +1,12 @@
 <?php
 
 use App\Http\Controllers\MainCotroller;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\URL;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,5 +24,4 @@ Route::get('/{any?}', function () {
 })->where('any', '^(?!api).*$');
 
 Auth::routes();
-
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
