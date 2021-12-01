@@ -11,6 +11,8 @@ use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\URL;
+use Laravelium\Sitemap\Sitemap;
+
 
 
 /*
