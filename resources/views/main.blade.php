@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <meta name="description" content="АИР" />
-  <META NAME="keywords" CONTENT="АИР - Агентство инновационного развития">
+  <meta name="title" content="АИР - Агентство инновационного развития" />
+  <meta name="description" content="Социально-ориентированная некоммерческая организация, реализующая научно-исследовательские проекты в сфере IT, мероприятия, направленные на популяризацию научно-технического творчества в сфере цифровых технологий, образовательные проекты." />
+  <META NAME="keywords" CONTENT="АИР - Агентство инновационного развития Социально-ориентированная некоммерческая организация, реализующая научно-исследовательские проекты в сфере IT, мероприятия, направленные на популяризацию научно-технического творчества в сфере цифровых технологий, образовательные проекты.">
   <META NAME="AUTHOR" CONTENT="https://vk.com/glrlcocks">
   <meta name="revisit-after" content="5 days">
   <link rel="SHORTCUT ICON" href="/assets/img/air_fav.png" type="image/x-icon">
