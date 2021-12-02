@@ -1657,7 +1657,8 @@ nav {
                     height: 146px;
                     margin-right: 10px;
                     img {
-                        width: fit-content;
+                        width: 100%;
+                        min-width: 144px;
                     }
                 }
                 .info {
@@ -1703,6 +1704,12 @@ nav {
                 padding: 11px 15px;
                 .img {
                     margin-right: 25px;
+                    width: 222px;
+                    height: 318px;
+                    img{
+                        min-width: 222px;
+                        width: 100%;
+                    }
                 }
                 .desc {
                     p {

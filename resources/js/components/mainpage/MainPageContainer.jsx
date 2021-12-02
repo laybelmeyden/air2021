@@ -1,5 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { connect } from "react-redux";
+import {
+    getCompetetionsThunkCreater,
+    getEventsThunkCreater,
+    getNewsThunkCreater,
+    getPartnersThunkCreater,
+} from "../redux/mainpageReducer";
 import MainPage from "./MainPage";
 
 export const SampleNextArrow = (props) => {
@@ -159,7 +165,7 @@ export const SamplePrevArrowMeros = (props) => {
     );
 };
 
-const MainPageContainer = () => {
+const MainPageContainer = (props) => {
     const [open, setOpen] = useState({ active: false, name: "" });
     const style = {
         position: "absolute",
@@ -186,7 +192,7 @@ const MainPageContainer = () => {
         variableWidth: true,
         row: 1,
         nextArrow: <SampleNextArrowCompetence />,
-        prevArrow: <SamplePrevArrowCompetence />
+        prevArrow: <SamplePrevArrowCompetence />,
     };
     const settings__meros = {
         dots: false,
@@ -196,7 +202,7 @@ const MainPageContainer = () => {
         variableWidth: true,
         row: 1,
         nextArrow: <SampleNextArrowMeros />,
-        prevArrow: <SamplePrevArrowMeros />
+        prevArrow: <SamplePrevArrowMeros />,
     };
     const handleOpen = (e) => {
         setOpen({ active: true, name: e });
@@ -207,13 +213,25 @@ const MainPageContainer = () => {
     const onBtnClose = () => {
         setOpen({ active: false, name: "" });
     };
-
+    useEffect(() => {
+        props.getNews();
+    }, []);
+    useEffect(() => {
+        props.getEvents();
+    }, []);
+    useEffect(() => {
+        props.getCompetetions();
+    }, []);
+    useEffect(() => {
+        props.getPartners();
+    }, []);
     return (
         <MainPage
             settings__mero={settings__mero}
             settings__competence={settings__competence}
             settings__meros={settings__meros}
             style={style}
+            mainPage={props.mainPage}
             handleOpen={handleOpen}
             handleClose={handleClose}
             open={open}
@@ -222,7 +240,14 @@ const MainPageContainer = () => {
     );
 };
 const mapStateToProps = (state) => {
-    return {};
+    return {
+        mainPage: state.mainPage,
+    };
 };
 
-export default connect(mapStateToProps, {})(MainPageContainer);
+export default connect(mapStateToProps, {
+    getNews: getNewsThunkCreater,
+    getEvents: getEventsThunkCreater,
+    getCompetetions: getCompetetionsThunkCreater,
+    getPartners: getPartnersThunkCreater,
+})(MainPageContainer);

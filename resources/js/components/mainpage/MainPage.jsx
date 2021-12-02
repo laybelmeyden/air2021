@@ -6,46 +6,19 @@ import "slick-carousel/slick/slick-theme.css";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Footer from "../footer/Footer";
-import { CompetetionsAPI, EventsAPI, NewsAPI, PartnersAPI } from "../api";
+import { CompetetionsAPI, EventsAPI, PartnersAPI } from "../api";
 
 const Mainpage = (props) => {
     React.useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-    const [event, setEvent] = useState([]);
-    const [news, setNews] = useState([]);
-    const [competetions, setCompetetions] = useState([]);
-    const [partners, setPartners] = useState([]);
-    useEffect(() => {
-        EventsAPI.allEvent().then((res) => {
-            const result = res.data;
-            setEvent(result.data);
-        });
-    }, []);
-    useEffect(() => {
-        NewsAPI.allNewsActually().then((res) => {
-            const result = res.data;
-            setNews(result.data);
-        });
-    }, []);
-    useEffect(() => {
-        CompetetionsAPI.allCompetetions().then((res) => {
-            const result = res.data;
-            setCompetetions(result.data);
-        });
-    }, []);
-    useEffect(() => {
-        PartnersAPI.allPartners().then((res) => {
-            const result = res.data;
-            setPartners(result.data);
-        });
-    }, []);
+    console.log(props)
     return (
         <div>
             <section className="mero__slider">
                 <div className="container item__arrow">
                     <Slider {...props.settings__mero}>
-                        {event.map(
+                        {props.mainPage.events.map(
                             (e, index) =>
                                 e.actually === "1" && (
                                     <div key={e.id}>
@@ -97,7 +70,7 @@ const Mainpage = (props) => {
                 <div className="container item__compitetions">
                     <h2>Компетенции Агентства</h2>
                     <Slider {...props.settings__competence}>
-                        {competetions.map((e, index) => (
+                        {props.mainPage.competetions.map((e, index) => (
                             <a
                                 onClick={() => props.handleOpen(e.modal_name)}
                                 key={e.id}
@@ -130,7 +103,7 @@ const Mainpage = (props) => {
                             </a>
                         ))}
                     </Slider>
-                    {competetions.map((e, index) => (
+                    {props.mainPage.competetions.map((e, index) => (
                         <Modal
                             keepMounted
                             key={e.id}
@@ -184,7 +157,7 @@ const Mainpage = (props) => {
                     <h3>Ближайшие мероприятия</h3>
                     <div className="mrg">
                         <Slider {...props.settings__meros}>
-                            {event.map(
+                            {props.mainPage.events.map(
                                 (e, index) =>
                                     e.actually === "1" && (
                                         <Link to={`/events/${e.id}`} key={e.id}>
@@ -230,7 +203,7 @@ const Mainpage = (props) => {
                 <div className="container news__item">
                     <h4>Новости</h4>
                     <div className="card__grid">
-                        {news.map((e, index) => (
+                        {props.mainPage.news.map((e, index) => (
                             <div key={e.id}>
                                 <Link to={`/news/${e.id}`}>
                                     <div className="card">
@@ -284,7 +257,7 @@ const Mainpage = (props) => {
                 <div className="container partners__item">
                     <h5>Партнёры</h5>
                     <div className="partners__grid">
-                        {partners.map((e, index) => (
+                        {props.mainPage.partners.map((e, index) => (
                             <a href={e.body} key={e + index}>
                                 <div className="item">
                                     <img src={`storage/${e.image}`} alt={e} />

@@ -26,7 +26,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Артем Крицын</p>
-                                <p className="desc">заместитель директора КГУ «Государственные технологии»</p>
+                                <p className="desc">Заместитель директора КГУ «Государственные технологии»</p>
                             </div>
                         </div>
                         <div className="item">
@@ -35,7 +35,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Матвей Бебенин</p>
-                                <p className="desc">менеджер продукта в компании «Сбер»</p>
+                                <p className="desc">Менеджер продукта в компании «Сбер»</p>
                             </div>
                         </div>
                         <div className="item">
@@ -44,7 +44,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Фанис Сулейманов</p>
-                                <p className="desc">менеджер продукта в «Тинькофф»</p>
+                                <p className="desc">Менеджер продукта в «Тинькофф»</p>
                             </div>
                         </div>
                         <div className="item">
@@ -53,7 +53,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Ирина Андреева</p>
-                                <p className="desc">преподаватель в ВШЭ и Нетологии, эксперт MACS</p>
+                                <p className="desc">Преподаватель в ВШЭ и Нетологии, эксперт MACS</p>
                             </div>
                         </div>
                         <div className="item">
@@ -62,7 +62,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Андрей Поскряков</p>
-                                <p className="desc">консультант по клиентоориентированности</p>
+                                <p className="desc">Консультант по клиентоориентированности</p>
                             </div>
                         </div>
                         <div className="item">
@@ -71,7 +71,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Семен Пухов</p>
-                                <p className="desc">специалист по проектной деятельности детского технопарка "Кванториум Саров"</p>
+                                <p className="desc">Специалист по проектной деятельности детского технопарка "Кванториум Саров"</p>
                             </div>
                         </div>
                         <div className="item">
@@ -89,7 +89,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Алина Бабух</p>
-                                <p className="desc">консультант в области графического и web-дизайна</p>
+                                <p className="desc">Консультант в области графического и web-дизайна</p>
                             </div>
                         </div>
                         <div className="item">
@@ -98,7 +98,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Игорь Пиир</p>
-                                <p className="desc">венчурный инвестор, автор и директор акселерационной международной программы «Startup Mastery» (Израиль)</p>
+                                <p className="desc">Венчурный инвестор, автор и директор акселерационной международной программы «Startup Mastery» (Израиль)</p>
                             </div>
                         </div>
                         <div className="item">
@@ -107,7 +107,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Шириф Кармо</p>
-                                <p className="desc">главный операционный директор в GetShop.TV</p>
+                                <p className="desc">Главный операционный директор в GetShop.TV</p>
                             </div>
                         </div>
                         <div className="item">
@@ -116,7 +116,7 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Станислав Корякин</p>
-                                <p className="desc">продюсер проектов развития, эксперт в сфере стратегических коммуникаций, политконсультант</p>
+                                <p className="desc">Продюсер проектов развития, эксперт в сфере стратегических коммуникаций, политконсультант</p>
                             </div>
                         </div>
                         <div className="item">
@@ -125,7 +125,16 @@ const Experts = () => {
                             </div>
                             <div className="info">
                                 <p className="name">Сергей Новиков</p>
-                                <p className="desc">директор инженерно-экономического института МАИ</p>
+                                <p className="desc">Директор инженерно-экономического института МАИ</p>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="img">
+                                <img src="/assets/experts/gul.png" alt="" />
+                            </div>
+                            <div className="info">
+                                <p className="name">Гуляева Алёна</p>
+                                <p className="desc">Аспирант Института высшей нервной деятельности и нейрофизиологии РАН. Заместитель генерального директора Arteo.tech</p>
                             </div>
                         </div>
                     </div>

@@ -1,9 +1,80 @@
+import { CompetetionsAPI, EventsAPI, NewsAPI, PartnersAPI } from "../api";
+
+const GET_NEWS = "GET_NEWS";
+const GET_EVENTS = "GET_EVENTS";
+const GET_COMPETETIONS = "GET_COMPETETIONS";
+const GET_PARTNERS = "GET_PARTNERS";
+
 const initialState = {
+    news: [],
+    events:[],
+    partners:[],
+    competetions:[]
 };
 
 const mainpageReducer = (state = initialState, action) => {
-    return state
+    switch (action.type) {
+        case GET_NEWS:
+            return { ...state, news: action.news };
+        case GET_EVENTS:
+            return { ...state, events: action.events };
+        case GET_COMPETETIONS:
+            return { ...state, competetions: action.competetions };
+        case GET_PARTNERS:
+            return { ...state, partners: action.partners };
+        default:
+            return state;
+    }
+};
+// actionCreaters
+export const getNews = (news) => {
+    return { type: GET_NEWS, news };
+};
+export const getEvents = (events) => {
+    return { type: GET_EVENTS, events };
+};
+export const getCompetetions = (competetions) => {
+    return { type: GET_COMPETETIONS, competetions };
+};
+export const getPartners = (partners) => {
+    return { type: GET_PARTNERS, partners };
+};
+
+// thunkCraters
+export const getNewsThunkCreater = () =>{
+    return (dispatch) => {
+        NewsAPI.allNewsActually().then((res) => {
+            const result = res.data;
+            dispatch(getNews(result.data));
+        });
+    }
 }
 
+export const getEventsThunkCreater = () =>{
+    return (dispatch) => {
+        EventsAPI.allEvent().then((res) => {
+            const result = res.data;
+            dispatch(getEvents(result.data));
+        });
+    }
+}
+
+export const getCompetetionsThunkCreater = () =>{
+    return (dispatch) => {
+        CompetetionsAPI.allCompetetions().then((res) => {
+            const result = res.data;
+            dispatch(getCompetetions(result.data));
+        });
+    }
+}
+
+export const getPartnersThunkCreater = () =>{
+    return (dispatch) => {
+        PartnersAPI.allPartners().then((res) => {
+            const result = res.data;
+            dispatch(getPartners(result.data));
+        });
+    }
+}
 
 export default mainpageReducer;
