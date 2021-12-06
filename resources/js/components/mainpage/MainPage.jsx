@@ -6,13 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Footer from "../footer/Footer";
-import { CompetetionsAPI, EventsAPI, PartnersAPI } from "../api";
+import Preloader from "../preloader/Preloader";
+
 
 const Mainpage = (props) => {
     React.useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-    console.log(props)
     return (
         <div>
             <section className="mero__slider">
@@ -202,6 +202,7 @@ const Mainpage = (props) => {
             <section className="news">
                 <div className="container news__item">
                     <h4>Новости</h4>
+                    {props.mainPage.status === "ready" ?  
                     <div className="card__grid">
                         {props.mainPage.news.map((e, index) => (
                             <div key={e.id}>
@@ -251,6 +252,7 @@ const Mainpage = (props) => {
                             </div>
                         ))}
                     </div>
+                    : <Preloader />}
                 </div>
             </section>
             <section className="partners">
