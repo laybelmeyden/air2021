@@ -42,7 +42,7 @@ const ProjectFinished = () => {
                                         alt={e.icon}
                                     />
                                     <p className="title">{e.title}</p>
-                                    <p className="desc">{e.minititle.length < 210 ? e.minititle : e.slice(0, 210) + "..."}</p>
+                                    <p className="desc">{e.minititle.length < 210 ? e.minititle : e.minititle.slice(0, 210) + "..."}</p>
                                     <button>
                                         Подробнее
                                         <svg
