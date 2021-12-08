@@ -5,6 +5,7 @@ import {
     getEventsThunkCreater,
     getNewsThunkCreater,
     getPartnersThunkCreater,
+    getProjectsThunkCreater,
 } from "../redux/mainpageReducer";
 import MainPage from "./MainPage";
 
@@ -225,6 +226,9 @@ const MainPageContainer = (props) => {
     useEffect(() => {
         props.getPartners();
     }, []);
+    useEffect(() => {
+        props.getProjects();
+    }, []);
     return (
         <MainPage
             settings__mero={settings__mero}
@@ -246,6 +250,7 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, {
+    getProjects: getProjectsThunkCreater,
     getNews: getNewsThunkCreater,
     getEvents: getEventsThunkCreater,
     getCompetetions: getCompetetionsThunkCreater,

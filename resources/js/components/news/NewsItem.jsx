@@ -22,6 +22,7 @@ export default function NewsItem() {
             </Helmet>
             <div className="container item__events">
                 <div className="img">
+                    {/* <img src={`/storage/${news.image ? news.image : news.other2}`} alt="" /> */}
                     <div
                         className="bcg__main"
                         style={{

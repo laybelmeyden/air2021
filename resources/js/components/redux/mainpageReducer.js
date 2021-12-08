@@ -1,6 +1,7 @@
-import { CompetetionsAPI, EventsAPI, NewsAPI, PartnersAPI } from "../api";
+import { CompetetionsAPI, EventsAPI, NewsAPI, PartnersAPI, ProjectsAPI } from "../api";
 
 const GET_NEWS = "GET_NEWS";
+const GET_PROJECTS = "GET_PROJECTS";
 const GET_EVENTS = "GET_EVENTS";
 const GET_COMPETETIONS = "GET_COMPETETIONS";
 const GET_PARTNERS = "GET_PARTNERS";
@@ -12,6 +13,7 @@ const initialState = {
     events: [],
     partners: [],
     competetions: [],
+    projects: [],
     status: "",
 };
 
@@ -19,6 +21,8 @@ const mainpageReducer = (state = initialState, action) => {
     switch (action.type) {
         case GET_NEWS:
             return { ...state, news: action.news };
+        case GET_PROJECTS:
+            return { ...state, projects: action.projects };
         case GET_EVENTS:
             return { ...state, events: action.events };
         case GET_COMPETETIONS:
@@ -36,6 +40,9 @@ const mainpageReducer = (state = initialState, action) => {
 // actionCreaters
 export const getNews = (news) => {
     return { type: GET_NEWS, news };
+};
+export const getProjects = (projects) => {
+    return { type: GET_PROJECTS, projects };
 };
 export const getLoading = () => {
     return { type: LOADING };
@@ -81,6 +88,15 @@ export const getEventsThunkCreater = () => {
         EventsAPI.allEvent().then((res) => {
             const result = res.data;
             dispatch(getEvents(result.data));
+        });
+    };
+};
+
+export const getProjectsThunkCreater = () => {
+    return (dispatch) => {
+        ProjectsAPI.allProjectActually().then((res) => {
+            const result = res.data;
+            dispatch(getProjects(result.data));
         });
     };
 };

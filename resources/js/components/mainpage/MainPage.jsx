@@ -152,7 +152,50 @@ const Mainpage = (props) => {
                     ))}
                 </div>
             </section>
-            <section className="meros">
+            <section className="projects__mainblade">
+                <div className="container item__projects__mainblade">
+                    <h3>Текущие проекты</h3>
+                    <div className="mrg">
+                        <Slider {...props.settings__meros}>
+                            {props.mainPage.projects.map(
+                                (e, index) =>
+                                    e.actually === "1" && (
+                                        <Link to={`/projects/${e.id}`} key={e.id}>
+                                            <div className="card">
+                                                <div
+                                                    className="bcg__main"
+                                                    style={{
+                                                        backgroundImage: `url(/storage/${e.image})`,
+                                                    }}
+                                                ></div>
+                                               <div className="bottom__title">
+                                                <p>{e.title.length < 52 ? e.title : e.title.slice(0, 52) + '...'}</p>
+                                                <button>
+                                                    Подробнее{" "}
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="10"
+                                                        height="11"
+                                                        viewBox="0 0 10 11"
+                                                        fill="none"
+                                                    >
+                                                        <path
+                                                            fillRule="evenodd"
+                                                            clipRule="evenodd"
+                                                            d="M2.90403 1.52903C3.02607 1.40699 3.22393 1.40699 3.34597 1.52903L7.09597 5.27903C7.21801 5.40107 7.21801 5.59893 7.09597 5.72097L3.34597 9.47097C3.22393 9.59301 3.02607 9.59301 2.90403 9.47097C2.78199 9.34893 2.78199 9.15107 2.90403 9.02903L6.43306 5.5L2.90403 1.97097C2.78199 1.84893 2.78199 1.65107 2.90403 1.52903Z"
+                                                        />
+                                                    </svg>
+                                                </button>
+                                               </div>
+                                            </div>
+                                        </Link>
+                                    )
+                            )}
+                        </Slider>
+                    </div>
+                </div>
+            </section>
+            {/* <section className="meros">
                 <div className="container item__meros">
                     <h3>Ближайшие мероприятия</h3>
                     <div className="mrg">
@@ -198,7 +241,7 @@ const Mainpage = (props) => {
                         </Slider>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="news">
                 <div className="container news__item">
                     <h4>Новости</h4>

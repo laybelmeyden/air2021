@@ -136,6 +136,36 @@
     }
 }
 @media screen and (max-width: 992px) {
+    .item__projects__solo .img {
+        grid-template-columns: 1fr;
+    }
+    .item__projects__solo .img .img__title {
+        padding: 20px 10px;
+        order: 2;
+    }
+    .item__projects__solo .variabldes__content .number__item ul {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+    .item__projects__solo .variabldes__content .number__item__img ul {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+    .item__projects__solo .img .bcg__main {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .item__projects__solo .logo__info {
+        column-gap: normal;
+        flex-direction: column;
+    }
+    .item__projects__solo .logo__info img {
+        height: auto;
+        max-height: 100px;
+        margin-bottom: 20px;
+    }
+    .item__projects__solo .variabldes__content .item__cells {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
     .item__projects__solo {
         grid-template-columns: 1fr;
         row-gap: 40px;
@@ -143,10 +173,11 @@
     .item__projects__solo .img {
         width: 100%;
     }
-    .partners{
-        .partners__item{
+    .partners {
+        .partners__item {
             .partners__grid {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
                 .item {
                     display: flex;
                     align-items: center;
@@ -165,11 +196,11 @@
         h1 {
             font-size: 5em;
         }
-        h2{
+        h2 {
             margin-top: 30px;
-           font-size: 1.5em; 
-           text-align: center;
-           margin-bottom: 30px;
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 30px;
         }
     }
     .experts .item__experts .experts__grid {
@@ -245,7 +276,7 @@
         row-gap: 30px;
         align-items: center;
     }
-    .name{
+    .name {
         text-align: center;
     }
     .grid__item .item__about .item__title .item h3 {
@@ -335,6 +366,45 @@
     }
 }
 @media screen and (max-width: 850px) {
+    .projects__mainblade {
+        .item__projects__mainblade {
+            .slick-arrow {
+                display: none;
+            }
+            .slick-list {
+                margin: 0;
+            }
+            .slick-slide {
+                width: 245px !important;
+                margin: 0 7.5px;
+            }
+            .mrg {
+                margin: 0;
+            }
+            h3 {
+                font-size: 24px;
+                margin-bottom: 25px;
+                padding: 0;
+            }
+        }
+
+        .card {
+            width: 100%;
+            height: 360px;
+            padding: 30px 15px;
+            .bottom__title {
+                width: 100%;
+                height: 176px;
+                padding: 20px 14px;
+                p{
+                    font-size: 16px;
+                }
+                button {
+                    width: 137px;
+                }
+            }
+        }
+    }
     .item__events .img {
         width: 100%;
         min-height: 200px;
