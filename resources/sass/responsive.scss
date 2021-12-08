@@ -157,10 +157,14 @@
         column-gap: normal;
         flex-direction: column;
     }
+    .item__projects__solo .img .img__title h1 {
+        font-size: 18px;
+    }
     .item__projects__solo .logo__info img {
         height: auto;
         max-height: 100px;
         margin-bottom: 20px;
+        width: 100%;
     }
     .item__projects__solo .variabldes__content .item__cells {
         grid-template-columns: 1fr;
