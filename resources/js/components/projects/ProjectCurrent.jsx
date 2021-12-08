@@ -45,7 +45,7 @@ const ProjectCurrent = () => {
                                         {e.title}
                                     </p>
                                     <p className="desc">
-                                        {e.minititle}
+                                    <p className="desc">{e.minititle.length < 210 ? e.minititle : e.slice(0, 210) + "..."}</p>
                                     </p>
                                     <button>
                                         Подробнее
