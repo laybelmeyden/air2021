@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PartnersController;
+use App\Http\Controllers\PhotoController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\SitemapController;
 
@@ -49,3 +50,4 @@ Route::get('projectsActually', [ProjectController::class, 'indexActually']);
 Route::get('projectsNonActually', [ProjectController::class, 'indexNonActually']);
 Route::get('allNewsMain', [NewsController::class, 'indexMain']);
 Route::get('getSitemap', [SitemapController::class, 'index']);
+Route::get('yearsPhotos', [PhotoController::class, 'indexYears']);

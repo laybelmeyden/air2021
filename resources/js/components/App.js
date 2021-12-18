@@ -29,7 +29,8 @@ import Errror404 from "./Errror404/Errror404";
 import NewsItem from "./news/NewsItem";
 import EventItem from "./meros/EventItem";
 import ProjectItem from "./projects/ProjectItem";
-
+import GalleryContainer from "./gallery/GalleryContainer";
+import GalleryItem from "./gallery/GalleryItem";
 
 
 
@@ -71,7 +72,10 @@ const App = () => {
                     <Route path="/contact" render={() => <Contact />} />
                     <Route path="/login" render={() => <Login />} />
                     <Route path="/admin" render={() => <AdminPageContainer />} />
-                    <Route path="/register" render={() => <Register />} />
+                    {/* <Route path="/register" render={() => <Register />} /> */}
+                    <Route exact path="/gallery" render={() => <GalleryContainer />} />
+                    <Route exact path="/gallery/:years" render={() => <GalleryContainer />} />
+                    <Route path="/gallery/:years/:name" render={() => <GalleryItem />} />
                     <Route path="" component={Errror404} />
                 </Switch>
             </Provider>

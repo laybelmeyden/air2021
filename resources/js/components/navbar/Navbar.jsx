@@ -90,7 +90,7 @@ const Navbar = () => {
                                 Экспертно-методический блок
                             </NavLink>
                         </div>
-                        {/* <div><NavLink to="2">галерея</NavLink></div> */}
+                        <div><NavLink to="/gallery">галерея</NavLink></div>
                         <div>
                             <NavLink to="/contact" onClick={onNavClose}>контакты</NavLink>
                         </div>

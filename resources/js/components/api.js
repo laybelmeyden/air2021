@@ -74,3 +74,9 @@ export const ProjectsAPI = {
     }
 }
 
+export const GalleryAPI = {
+    galleryYears:() => {
+        return axios.get(`${BASE_API_URL}/yearsPhotos`)
+    }
+}
+

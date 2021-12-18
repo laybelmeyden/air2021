@@ -380,6 +380,44 @@ nav {
     }
 }
 // endnavbar
+// gallery
+.gallery__links {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 30px;
+    a {
+        width: 120px;
+        height: 47px;
+        display: flex;
+        background: #e2e8f0;
+        border-radius: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .item {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #014483;
+        }
+        &.active {
+            background: #014483;
+            .item{
+                color: #F7FAFC;
+            }
+        }
+        &:hover{
+            background: #014483;
+            .item{
+                color: #F7FAFC;
+            } 
+        }
+    }
+}
+// endgallery
 .item__events {
     margin-top: 20px !important;
     margin-bottom: 38px !important;

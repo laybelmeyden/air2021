@@ -92,6 +92,7 @@ export const getEventsThunkCreater = () => {
     };
 };
 
+
 export const getProjectsThunkCreater = () => {
     return (dispatch) => {
         ProjectsAPI.allProjectActually().then((res) => {
