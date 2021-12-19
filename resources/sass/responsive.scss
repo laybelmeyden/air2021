@@ -143,6 +143,29 @@
         padding: 20px 10px;
         order: 2;
     }
+    .gallery__item a {
+        width: 300px;
+    }
+    .gallery {
+        .gallery__item {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .gallery__links {
+        display: flex;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        justify-content: center;
+        a {
+            width: 30%;
+        }
+    }
+    .light__container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
     .item__projects__solo .variabldes__content .number__item ul {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
@@ -400,7 +423,7 @@
                 width: 100%;
                 height: 176px;
                 padding: 20px 14px;
-                p{
+                p {
                     font-size: 16px;
                 }
                 button {

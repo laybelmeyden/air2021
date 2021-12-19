@@ -8,7 +8,7 @@ const initialState = {
     gallery: [],
     galleryYearsOut: [],
     galleryYearsFileName: [],
-    status: "",
+    loading: true,
 };
 
 const galleryReducer = (state = initialState, action) => {
@@ -21,9 +21,7 @@ const galleryReducer = (state = initialState, action) => {
                 galleryYearsFileName: action.galleryYearsFileName,
             };
         case LOADING:
-            return { ...state, status: (action.status = "loading") };
-        case READY:
-            return { ...state, status: (action.status = "ready") };
+            return { ...state, loading: action.loading };
         default:
             return state;
     }
@@ -32,11 +30,8 @@ const galleryReducer = (state = initialState, action) => {
 export const getGallery = (gallery, galleryYearsOut, galleryYearsFileName) => {
     return { type: GET_GALLERY, gallery, galleryYearsOut, galleryYearsFileName };
 };
-export const getLoading = () => {
-    return { type: LOADING };
-};
-export const getReady = () => {
-    return { type: READY };
+export const getLoading = (loading) => {
+    return { type: LOADING, loading };
 };
 
 // thunkCraters
@@ -53,6 +48,7 @@ export const getGalleryThunkCreater = () => {
                     resultYearsNameFiles
                 )
             );
+            dispatch(getLoading(false));
         });
     };
 };
