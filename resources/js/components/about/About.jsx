@@ -250,7 +250,7 @@ const About = () => {
                                 заинтересованными участниками инновационной
                                 экосистемы!
                             </p>
-                            <a href="">
+                            <a href="/assets/presentations/Air_presentation.pdf">
                                 <div className="link">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
